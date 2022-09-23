@@ -1,0 +1,221 @@
+"","operator","market_level_route","num_of_ships","total_tonnage"
+"1","ABC","all_routes",7,10700
+"2","Evergreen","all_routes",45,111448
+"3","Maersk","all_routes",29,75422
+"4","SCI","all_routes",28,9335
+"5","Senator","all_routes",12,17880
+"6","Yangming","all_routes",18,44120
+"7","Zim","all_routes",32,39982
+"8","Admiral Lines","europe_and_asia",1,218
+"9","Ben Line","europe_and_asia",3,9096
+"10","Blasco","europe_and_asia",33,20938
+"11","BSC","europe_and_asia",32,20682
+"12","CGM","europe_and_asia",9,10570
+"13","Chipolbrok","europe_and_asia",20,10023
+"14","Cho Yang","europe_and_asia",4,9694
+"15","CMA","europe_and_asia",8,13703
+"16","CMB","europe_and_asia",11,11593
+"17","Conship","europe_and_asia",1,1020
+"18","Contship","europe_and_asia",13,13337
+"19","Cosco","europe_and_asia",84,62071
+"20","CSC","europe_and_asia",5,5570
+"21","CSCS","europe_and_asia",1,1138
+"22","DL","europe_and_asia",3,1714
+"23","DSR","europe_and_asia",42,19353
+"24","EAC","europe_and_asia",1,2821
+"25","EISC","europe_and_asia",4,852
+"26","ENC","europe_and_asia",6,1909
+"27","Hanjin","europe_and_asia",23,46183
+"28","Hapag-Lloyd","europe_and_asia",22,41893
+"29","India SS","europe_and_asia",1,339
+"30","Jugolinija","europe_and_asia",24,15513
+"31","K-Line","europe_and_asia",21,44864
+"32","LT","europe_and_asia",6,6949
+"33","Marfret","europe_and_asia",4,1696
+"34","Merzario","europe_and_asia",2,2871
+"35","MISC","europe_and_asia",2,5540
+"36","MOL","europe_and_asia",31,47592
+"37","MSC","europe_and_asia",10,9037
+"38","NCHP","europe_and_asia",4,3398
+"39","Nedlloyd","europe_and_asia",24,22944
+"40","NOL","europe_and_asia",11,28015
+"41","Norasia","europe_and_asia",10,18514
+"42","NSCSA","europe_and_asia",6,12700
+"43","NYK","europe_and_asia",34,58396
+"44","Omex","europe_and_asia",1,1948
+"45","OOCL","europe_and_asia",18,47873
+"46","P&O Containers","europe_and_asia",10,27163
+"47","POL","europe_and_asia",22,14023
+"48","Rickmers","europe_and_asia",4,3217
+"49","Samudera","europe_and_asia",1,267
+"50","ScanDutch","europe_and_asia",14,30402
+"51","Sea-Land","europe_and_asia",33,89188
+"52","Sinotrans","europe_and_asia",4,3054
+"53","SMTM","europe_and_asia",2,904
+"54","SNC","europe_and_asia",1,445
+"55","TFH Line","europe_and_asia",4,2786
+"56","Trikora","europe_and_asia",3,1012
+"57","Unithai","europe_and_asia",3,972
+"58","Wan Hai","europe_and_asia",1,630
+"59","Wilhelmsen Lines A/S","europe_and_asia",10,22320
+"60","AAEL","transatlantic",4,1764
+"61","ACL","transatlantic",6,17153
+"62","ACS","transatlantic",4,5400
+"63","Alianca","transatlantic",3,2845
+"64","AmTrans","transatlantic",2,2200
+"65","ARPA Shpp","transatlantic",1,199
+"66","Atlantic Lash","transatlantic",1,800
+"67","BCL","transatlantic",1,320
+"68","Booth","transatlantic",2,844
+"69","Brisa","transatlantic",1,1208
+"70","Canmar","transatlantic",5,5718
+"71","Canmar/OOCL","transatlantic",1,1737
+"72","Caribtainer","transatlantic",2,923
+"73","Cast","transatlantic",6,8778
+"74","CCL","transatlantic",1,422
+"75","CCNI","transatlantic",4,1980
+"76","CD","transatlantic",2,1644
+"77","Ciamar","transatlantic",3,1295
+"78","Comanav","transatlantic",2,388
+"79","Constellation","transatlantic",2,1431
+"80","Contemaris","transatlantic",2,568
+"81","Contenemar","transatlantic",9,1980
+"82","CSAV","transatlantic",6,4390
+"83","CTC","transatlantic",3,5076
+"84","d'Amico","transatlantic",3,3325
+"85","Dannebrog","transatlantic",4,2104
+"86","Deppe","transatlantic",3,2084
+"87","EAC West Africa","transatlantic",3,2939
+"88","Eimskip","transatlantic",2,643
+"89","Elma","transatlantic",19,6175
+"90","Empremar","transatlantic",1,642
+"91","Euro-Gulf","transatlantic",4,2504
+"92","Europe Paraguay","transatlantic",4,832
+"93","Eurosal","transatlantic",4,1768
+"94","EWL","transatlantic",3,1165
+"95","Farrell","transatlantic",4,4430
+"96","Fred Olsen","transatlantic",2,328
+"97","Frigo","transatlantic",1,147
+"98","Garcia-Minaur","transatlantic",3,366
+"99","Grimaldi","transatlantic",2,2140
+"100","GSAL","transatlantic",5,1654
+"101","Gulf Container","transatlantic",2,3252
+"102","Hamburg-Sud","transatlantic",1,1211
+"103","Harrison","transatlantic",1,1474
+"104","Havenlijn","transatlantic",1,1189
+"105","Incotrans","transatlantic",1,1282
+"106","Independent","transatlantic",3,2427
+"107","Italia","transatlantic",7,8254
+"108","Joon Liner","transatlantic",4,2356
+"109","Kent","transatlantic",1,556
+"110","Kent Line","transatlantic",1,244
+"111","Laser Lines","transatlantic",5,6485
+"112","Lash Carriers","transatlantic",1,600
+"113","Lauro","transatlantic",1,104
+"114","LB","transatlantic",13,6985
+"115","Lykes","transatlantic",15,10168
+"116","Mambisa","transatlantic",16,7184
+"117","Marasia","transatlantic",2,400
+"118","Maruba","transatlantic",2,1097
+"119","Montemar","transatlantic",4,2737
+"120","Montreal Shpp","transatlantic",4,1883
+"121","Nav del Odiel","transatlantic",3,426
+"122","OPDR","transatlantic",4,1480
+"123","Paulista","transatlantic",1,500
+"124","Pinillos","transatlantic",10,1837
+"125","Portline","transatlantic",1,217
+"126","PSNC","transatlantic",1,1902
+"127","Rainbow","transatlantic",1,106
+"128","Samband","transatlantic",1,164
+"129","Seas","transatlantic",1,647
+"130","Splosna Plovba","transatlantic",6,5359
+"131","Star Shpp","transatlantic",32,40447
+"132","Surinam","transatlantic",2,524
+"133","Tecomar","transatlantic",3,1955
+"134","TFL","transatlantic",1,1400
+"135","TMM","transatlantic",13,17952
+"136","Topgallant","transatlantic",2,4822
+"137","Transmediterranea","transatlantic",2,246
+"138","Transnave","transatlantic",3,2695
+"139","Transroll","transatlantic",1,600
+"140","Trasatlantica","transatlantic",5,2142
+"141","Trasmediterranea","transatlantic",4,722
+"142","UAL","transatlantic",2,1090
+"143","UMAG","transatlantic",1,545
+"144","Unimex/Deppe","transatlantic",4,948
+"145","WEC","transatlantic",1,185
+"146","Ybarra","transatlantic",3,1729
+"147","APL","transpacific",15,45000
+"148","Canisa","transpacific",2,552
+"149","CPV","transpacific",1,250
+"150","EAC(TPS)","transpacific",1,2984
+"151","Fesco","transpacific",16,8989
+"152","Frota Oceanica","transpacific",5,1028
+"153","GBCS","transpacific",3,4200
+"154","Grancolombiana","transpacific",1,356
+"155","Great Eastern","transpacific",3,672
+"156","Hoegh","transpacific",5,6808
+"157","Hyundai","transpacific",9,15762
+"158","Kyowa","transpacific",1,205
+"159","Linabol","transpacific",1,180
+"160","MOL/NYK","transpacific",1,2577
+"161","Nippon Liner","transpacific",6,13183
+"162","Nissan","transpacific",2,340
+"163","NLS","transpacific",1,367
+"164","NSCP","transpacific",3,1680
+"165","PIL","transpacific",14,5048
+"166","PNSC","transpacific",1,428
+"167","Seaboard","transpacific",3,3561
+"168","Waterman","transpacific",4,2550
+"169","Westwood","transpacific",4,8116
+"170","Agromar","variable_routes",5,1244
+"171","Anangel","variable_routes",4,1141
+"172","Angkutan","variable_routes",2,224
+"173","Argomar","variable_routes",1,130
+"174","Atlantska","variable_routes",1,1448
+"175","Azov","variable_routes",1,150
+"176","Bougainville Copper","variable_routes",1,437
+"177","Contimar","variable_routes",2,634
+"178","Dalian Marine Shpp","variable_routes",1,1202
+"179","Danielsen","variable_routes",1,110
+"180","ENS","variable_routes",1,150
+"181","Estonian Shpp","variable_routes",2,274
+"182","Ethiopian","variable_routes",1,174
+"183","Eurosteel","variable_routes",1,558
+"184","FG-Shpp","variable_routes",1,540
+"185","Finncarriers","variable_routes",1,1100
+"186","Gearbulk","variable_routes",39,49100
+"187","HK Ming Wah","variable_routes",2,451
+"188","HUAL","variable_routes",14,5554
+"189","IRISL","variable_routes",5,1832
+"190","Jadroplov","variable_routes",1,150
+"191","Jebsen","variable_routes",1,514
+"192","Larsen","variable_routes",2,272
+"193","Mammoet","variable_routes",3,1938
+"194","Mamooet HL","variable_routes",1,1076
+"195","Mariago","variable_routes",1,124
+"196","Mercandian","variable_routes",1,414
+"197","Mort&Lang","variable_routes",1,130
+"198","Murmansk","variable_routes",7,3094
+"199","Narvrom","variable_routes",8,1138
+"200","Navibulgar","variable_routes",2,720
+"201","Navrom","variable_routes",57,9168
+"202","Neptunia","variable_routes",1,185
+"203","NNSL","variable_routes",14,5795
+"204","Pan Ocean","variable_routes",3,2130
+"205","Pegasus Ocean","variable_routes",1,558
+"206","PPL Lines","variable_routes",4,616
+"207","Pro Line","variable_routes",3,862
+"208","Schulz&Clem","variable_routes",1,310
+"209","Scindia","variable_routes",9,2708
+"210","Seatreck","variable_routes",1,1117
+"211","Spleithoff's","variable_routes",3,660
+"212","Spliethoff's","variable_routes",29,10534
+"213","T Klaveness","variable_routes",2,1028
+"214","Thien&Heyenga","variable_routes",1,160
+"215","Toho Line","variable_routes",2,406
+"216","Tokai Shpp","variable_routes",1,1204
+"217","Transinsular","variable_routes",1,158
+"218","UASC","variable_routes",14,6324
+"219","Vosco","variable_routes",1,200
+"220",NA,"variable_routes",1,260

@@ -1,0 +1,90 @@
+---
+title: "01_describe_price_newbuilding_secondhand_scrap"
+author: "Suguru Otani"
+date: "2022/1/13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, cache = FALSE)
+rm(list = ls())
+library(readxl)
+library(ggplot2)
+library(purrr)
+library(modelsummary)
+```
+
+# Load data
+
+```{r,echo=FALSE,results = 'asis'}
+price_newbuilding_secondhand_scrap <-
+  readRDS("../cleaned/price_newbuilding_secondhand_scrap.rds") %>%
+  tidyr::tibble()
+price_newbuilding_secondhand_scrap <-
+  price_newbuilding_secondhand_scrap %>% 
+  dplyr::mutate(
+    converted_unit = ifelse(
+      converted_unit == 
+        "newbuilding_price_per_TEU",
+      "newbuilding",
+      ifelse(
+        converted_unit == 
+          "second_hand_dry_cargo_price_per_TEU_5years",
+        "secondhand",
+        "scrap")
+    )
+  )
+```
+
+
+## price_newbuilding_secondhand_scrap {.tabset}
+
+```{r,echo=FALSE,results = 'asis'}
+x <- ggplot(price_newbuilding_secondhand_scrap,
+            aes(x = year, y = converted_price)) + 
+  geom_line(aes(color = converted_unit),
+            alpha = 0.6, size = 1.0) +
+  geom_point(aes(shape = converted_unit,
+                 color = converted_unit)) +
+  theme_classic() + 
+  scale_color_viridis_d() +
+  theme(legend.position = 'top',
+        legend.text = element_text(size=8)) +
+  #ggtitle("Freight rate (CPI adjusted to 1995)") +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  xlab("Year") + 
+  ylab("current_dollars_per_TEU")
+x
+```
+
+```{r,echo=FALSE,results = 'asis'}
+x <- ggplot(price_newbuilding_secondhand_scrap,
+            aes(x = year, 
+                y = converted_price_cpi_adjusted)) + 
+  geom_line(aes(color = converted_unit),
+            alpha = 0.6, size = 1.0) +
+  geom_point(aes(shape = converted_unit,
+                 color = converted_unit)) +
+  theme_classic() + 
+  scale_color_viridis_d() +
+  theme(legend.position = 'top',
+        legend.text = element_text(size=8)) +
+  labs(colour = "", fill = "", shape = "") +
+  #ggtitle("Freight rate (CPI adjusted to 1995)") +
+  theme(plot.title = element_text(hjust = 0.5)) +
+  xlab("Year") + 
+  ylab("$ per TEU (CPI-1995 adjusted)") +
+  geom_vline(xintercept = 1980, linetype = "longdash") + 
+  geom_vline(xintercept = 1984, linetype = "longdash") 
+x
+
+```
+
+
+
+

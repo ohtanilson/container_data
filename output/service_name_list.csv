@@ -1,0 +1,978 @@
+"","service","num_of_ships","cartel_member_dummy"
+"1","A Bottacchi",6,0
+"2","A Bottacchi/Elma",4,0
+"3","A Service",5,0
+"4","AAE/Anline/OOCL/Yangming",5,0
+"5","AAEL",4,0
+"6","AB Sea Link",2,0
+"7","AB Ship Link",1,0
+"8","ABC",7,0
+"9","Aboitiz",10,0
+"10","Ace Group",9,0
+"11","ACL/Hapag-Lloyd",7,0
+"12","ACL/Hapag Lloyd",2,0
+"13","ACS",4,0
+"14","Admed",1,0
+"15","Admiral Lines",1,0
+"16","Adriatic",1,0
+"17","Adriatic feeder",1,0
+"18","Adriatica",2,0
+"19","AEL/Senator",2,0
+"20","AESL/MACS",5,0
+"21","AFL",1,0
+"22","Afrapacific",2,0
+"23","Agromar",5,0
+"24","Ahiers/KNSM/Latvian",1,0
+"25","Ahlers/Finanglia",2,0
+"26","Ahlers/Finncarriers",1,0
+"27","AJCL/ESS/K ASS/MOL/NLS/NYK",1,0
+"28","AJCL/ESS/KASS/MOL/NLS/NYK",1,0
+"29","AJCL/ESS/MOL/NLS/NYK",4,0
+"30","AJCL/ESS/MOL/NYK",1,0
+"31","Akak",1,0
+"32","Alamar Sud",2,0
+"33","Alianca",10,0
+"34","Aliberia",1,0
+"35","Alinanca",1,0
+"36","Alpina",1,0
+"37","Alportugal",1,0
+"38","ALS",6,0
+"39","AMEP",4,0
+"40","America Niugini",1,0
+"41","AmTrans",8,0
+"42","Anangel",4,0
+"43","Andes",2,0
+"44","Andromeda",4,0
+"45","Angkutan",6,0
+"46","Angoline",3,0
+"47","Angonave",2,0
+"48","ANL(coastal)",1,0
+"49","ANL/Anzecs",12,0
+"50","ANL/K-Line/Knuisen/MOL/NYK",1,0
+"51","ANL/K-Line/Knutsen/MOL/NYK",1,0
+"52","ANL/K-Line/MOL/NYK/Knutsen",1,0
+"53","Anline",1,0
+"54","Anro",7,0
+"55","Antillean Line",1,0
+"56","Antillean Marine",4,0
+"57","ANZ/Anzecs",1,0
+"58","ANZ/Med",1,0
+"59","ANZDL",3,0
+"60","Anzeca",1,0
+"61","Anzecs",1,0
+"62","Arabian Gulf Clipper",1,0
+"63","Arctic Lighter",1,0
+"64","Argomar",1,0
+"65","Arimura Sangyo",1,0
+"66","Arma Line",1,0
+"67","Aros",4,0
+"68","ARPA Shpp",1,0
+"69","Arrow Lines",4,0
+"70","Asadco",2,0
+"71","ASAS",4,0
+"72","Asitco-1",1,0
+"73","Aspac",2,0
+"74","ASS",1,0
+"75","Assoc Levant",2,0
+"76","Atlant Line",1,0
+"77","Atlantic Cnt Ex",1,0
+"78","Atlantic Cnt Exp",1,0
+"79","Atlantic Searoute",2,0
+"80","Atlantis",1,0
+"81","Atlantska",1,0
+"82","Atlas",1,0
+"83","Atlas Shpp",3,0
+"84","Atllantis",1,0
+"85","AXCL",1,0
+"86","AXCL Asia",1,0
+"87","Azov",2,0
+"88","B Service",4,0
+"89","B&I",2,0
+"90","Bali Hai",2,0
+"91","Balsco",1,0
+"92","Balt Austral",6,0
+"93","Balt Canada",4,0
+"94","Balt Orient",7,0
+"95","Baltamcrica",1,0
+"96","Baltamercia",1,0
+"97","Baltamerica",5,0
+"98","Bangladesh",7,0
+"99","Bangladesh/BOCL/L&M Shpp",3,0
+"100","Bangladshi/BOCL/L&M Shpp",1,0
+"101","Barbican",3,0
+"102","Barwil",1,0
+"103","Barwil Express",1,0
+"104","BBS/ScanCarriers/Troll",9,0
+"105","BCL/US-Med/Service",1,0
+"106","Beacon",4,0
+"107","Belfast Freignt",1,0
+"108","Bell",12,0
+"109","Bell Ibcrica",1,0
+"110","Belmed",1,0
+"111","Ben/P&O Containers",2,0
+"112","Benelux-Morocco/K NSM",2,0
+"113","Benelux Poland",2,0
+"114","Bengal Tiger",5,0
+"115","Bermuda Cont",1,0
+"116","Bermuda Intl",1,0
+"117","Bernuth",4,0
+"118","BHP",2,0
+"119","Blasco",22,0
+"120","Blasco Indosian",2,0
+"121","Blasco Orient",2,0
+"122","Blasco Oriental",5,0
+"123","Blasco/CMN",1,0
+"124","Blasco/Meridionale",1,0
+"125","Blue Caribe",1,0
+"126","Booth",2,0
+"127","Borchard",6,0
+"128","Borchard/Zim",2,0
+"129","Bore Baltic Ferry",2,0
+"130","Bore Continent",2,0
+"131","Bore Ferry",2,0
+"132","Bore Kiel",2,0
+"133","Bougainville Copper",1,0
+"134","Brambles",2,0
+"135","Breakbulk Express",1,0
+"136","Bremen Ostnorwegen Express",1,0
+"137","Bridge Line",6,0
+"138","Brit Line",1,0
+"139","British Continental",4,0
+"140","Brointermed",1,0
+"141","Bruno Bisch/Horn/Litbuanian",1,0
+"142","BSC",27,0
+"143","BSC/Latvain/UBC",1,0
+"144","BSC/UBC",1,0
+"145","Bugsier",6,0
+"146","Bulcon",4,0
+"147","BWAL",2,0
+"148","Cactus",1,0
+"149","Calpso",1,0
+"150","Caltram",2,0
+"151","Camar",1,0
+"152","Camogra",3,0
+"153","Camship",3,0
+"154","Canadian Tropic",2,0
+"155","Canisa",2,0
+"156","Capricorne A",6,0
+"157","Capricorne B",3,0
+"158","Carib feeder",1,0
+"159","Caribtainer",2,0
+"160","Carol",4,0
+"161","Carrybox",2,0
+"162","Carsacon",3,0
+"163","Cast Blue Box",6,0
+"164","Cast feeder",1,0
+"165","Castle&Cook",2,0
+"166","CAVN",8,0
+"167","CAVN/FMG",1,0
+"168","CB Marine",1,0
+"169","CBTG",1,0
+"170","CCAL",2,0
+"171","CCL",3,0
+"172","CCL/CCS",1,0
+"173","CCL/CTE/d'Amico/Italia",1,0
+"174","CCL/CTE/d@79Amico/Italia",1,0
+"175","CCL/Iscont",1,0
+"176","CCNI",2,0
+"177","CCNI/Lykes",4,0
+"178","CCS",6,0
+"179","CCT",6,0
+"180","CD",5,0
+"181","CD/Comanav",2,0
+"182","CE/CNM/Contship/DSR/Necol",5,0
+"183","CE/ML/Prince",3,0
+"184","Celtic Container",1,0
+"185","Cenargo",1,0
+"186","CGM",11,0
+"187","CGM Interline",1,0
+"188","CGM/GCL/Hapag-Lloyd",5,0
+"189","CGM/H-L/ICT/Ned/Sea-Land/TFL",4,0
+"190","CGM/H-L/Incotram/Ned/S-L/TFL",1,0
+"191","CGM/H-L/Incotrans/Ned/S-L/TFL",1,0
+"192","CGM/H0L/Inctrns/Ned/S-L/TFL",2,0
+"193","CGM/Maersk",1,0
+"194","CH Line",3,0
+"195","Chief Container",5,0
+"196","China Japan Ferry",1,0
+"197","Chipolbrok",20,0
+"198","Cho Yang",1,0
+"199","Cho Yang/Hanjin",9,0
+"200","Chu Kong",3,0
+"201","Chun Kyung",2,0
+"202","Ciamar",8,0
+"203","Cie Polynesienne",1,0
+"204","CIS",5,0
+"205","CMA Gulf /FE",8,0
+"206","CMA Gulf Feeder",1,0
+"207","CMB Express",3,0
+"208","CMB Indian",1,0
+"209","CMB Indian Oc",1,0
+"210","CMB Indian Ocean",8,0
+"211","CMB/CMZ",3,0
+"212","CMB/Nav",2,0
+"213","CMB/Nav Pacifico",2,0
+"214","CMCL",6,0
+"215","CMN",3,0
+"216","CMN/LB/TMM",3,0
+"217","CMZ",1,0
+"218","CNAN",5,0
+"219","Coastal",4,0
+"220","Cobelfret Ferries",6,0
+"221","Cobenam",1,0
+"222","Cobra",4,0
+"223","Cobra/CSL",2,0
+"224","Columbia Cont Barge",2,0
+"225","Columbus",3,0
+"226","Columbus/Pace",5,0
+"227","Columbus/Pace(West)",6,0
+"228","Comanav",11,0
+"229","Comanav/Sius",2,0
+"230","Comar",7,0
+"231","Comedsa Line",2,0
+"232","Comedsn Line",1,0
+"233","Commodore",1,0
+"234","Comodal/Lolisa",1,0
+"235","Comtramar",1,0
+"236","Comvelt",2,0
+"237","Conade",1,0
+"238","Conaven",1,0
+"239","Conbulk Service",1,0
+"240","Concord Express",10,0
+"241","Concorde",2,0
+"242","Condock",1,0
+"243","Cono Sur",1,0
+"244","Consortium Hispania Lines",4,0
+"245","Constellation",2,0
+"246","Containerships",1,0
+"247","Contemaris",2,0
+"248","Contenemar",9,0
+"249","Contimar",2,0
+"250","Cool Carriers",2,0
+"251","Cormoran",2,0
+"252","Coromandel",1,0
+"253","Cosco",7,0
+"254","Cosco Dalian",3,0
+"255","Cosco Guangzhou",43,0
+"256","Cosco Jiangxi",1,0
+"257","Cosco Shanghai",47,0
+"258","Cosco Tianjin",41,0
+"259","Cosco Zhejiang",2,0
+"260","Costa/d'Amico",1,0
+"261","Cotunav",6,0
+"262","County",1,0
+"263","Cowac",6,0
+"264","Cowac/Ukwal",4,0
+"265","CPV",2,0
+"266","CPV/Linabol",2,0
+"267","CSAV",4,0
+"268","CSAV/Neptuno",4,0
+"269","CSC",4,0
+"270","CSC/Sindbad",1,0
+"271","CTC/Star Shpp",3,0
+"272","CTE/Nedlloyd/Sea-Land/TFL",2,0
+"273","CTE/Nedllyd/Sea-Land/TFL",1,0
+"274","Cuba Ro-Lo",2,0
+"275","Cuba RO-Lo",1,0
+"276","Cuba Ro-Ro",5,0
+"277","Cunard Ellerman",5,0
+"278","d'Amico",1,0
+"279","d'Amico/Italia",4,0
+"280","Dafra",3,0
+"281","Dalian Containership",1,0
+"282","Dalian Marine Shpp",1,0
+"283","Danielsen",1,0
+"284","Danser",3,0
+"285","Dartford Ferries",1,0
+"286","Del Monte",1,0
+"287","Deppe",3,0
+"288","DFDS",3,0
+"289","DFDS Macpak",1,0
+"290","DFDS North Sea",1,0
+"291","DFDS/Macpak",1,0
+"292","DFDS/Portulloyd",2,0
+"293","DFL",2,0
+"294","Dip/Sea Line",2,0
+"295","DL",6,0
+"296","DL/PIL",2,0
+"297","Dleppe Ro-Ro",1,0
+"298","Dock Express",1,0
+"299","Dole",2,0
+"300","Dongnama",8,0
+"301","Dragon",1,0
+"302","Dragon European",1,0
+"303","DSR",46,0
+"304","DSR/Necol",1,0
+"305","DSS/SNG",2,0
+"306","Dubbelman",2,0
+"307","EAC-HIL",2,0
+"308","EAC-PNSL",2,0
+"309","EAC Weat Africa",1,0
+"310","EAC West Africa",2,0
+"311","EAC(TPS)/Hyundai",6,0
+"312","Eacon",12,0
+"313","Eagle",5,0
+"314","EAL",3,0
+"315","East Coast",6,0
+"316","East West Service",1,0
+"317","Eastern",8,0
+"318","Eastern Car",6,0
+"319","Eastern Cont/RCL",3,0
+"320","Eimskip",9,0
+"321","EISC",4,0
+"322","Elbe-Humber",2,0
+"323","Elite",1,0
+"324","Elma",28,0
+"325","Empremar/ENS",4,0
+"326","Empros",2,0
+"327","ENC",10,0
+"328","ENS",1,0
+"329","Epacsa",3,0
+"330","Estonian",1,0
+"331","Estonian Marine",1,0
+"332","Estonian Shpp",8,0
+"333","Ethiopian",7,0
+"334","Eur/PSW",3,0
+"335","Eur/R Sea",1,0
+"336","Eur/WCSA",1,0
+"337","Euro-Gulf/GCL/Tecomar",3,0
+"338","Euro-Gulf/Tecomar",3,0
+"339","Euro-Gulf/Tencomar",1,0
+"340","Euroasia/Medipas",3,0
+"341","Euroasia/Tiger Express",5,0
+"342","Eurobarge",3,0
+"343","Euroceania",3,0
+"344","Europe Paraguay",4,0
+"345","Eurosacs",4,0
+"346","Eurosal",9,0
+"347","Eurosteel",1,0
+"348","Everett Orient",1,0
+"349","Evergreen",46,0
+"350","Evergreen/GAC",2,0
+"351","Ewas",3,0
+"352","EWAS",1,0
+"353","EWL",3,0
+"354","Fahrgemeinschaft-Oberrrheim",1,0
+"355","Fako/Nile Dutch",2,0
+"356","Falcon",2,0
+"357","Falline",15,0
+"358","Far East",4,0
+"359","far East Line",1,0
+"360","Far East Line",9,0
+"361","Farrell",5,0
+"362","Fast Line",3,0
+"363","Ferrymar",1,0
+"364","Ferrymasters",1,0
+"365","Fesco",34,0
+"366","Fesco Australia",5,0
+"367","Fesco Canada",3,0
+"368","Fesco India",6,0
+"369","Fesco New Zealand",4,0
+"370","Fesco/India",2,0
+"371","Fesusa",6,0
+"372","FEX",5,0
+"373","FG-Shpp",1,0
+"374","Fiji Govt",1,0
+"375","Finanglia",5,0
+"376","Finncarriers",12,0
+"377","Finncarriers/Poseidon",2,0
+"378","Finnterminals",1,0
+"379","Floatline",1,0
+"380","Florida Express",2,0
+"381","Flota Suardiaz",1,0
+"382","Ford",1,0
+"383","Forest",2,0
+"384","Fred Olen",2,0
+"385","Fred Olsen",3,0
+"386","Freight Trans(HK)",1,0
+"387","Frenave Transportes",1,0
+"388","French Arab",1,0
+"389","Frigo",1,0
+"390","Frota Oceanica",5,0
+"391","Frotama",2,0
+"392","G&C",1,0
+"393","G&C Line",4,0
+"394","Galtram",2,0
+"395","Gama",5,0
+"396","GBCS",4,0
+"397","GBCS/Westwood",7,0
+"398","Gearbulk",35,0
+"399","Geden",2,0
+"400","Gemaritrans",1,0
+"401","Gemartrans",1,0
+"402","Genargo",1,0
+"403","Gesuri Lloyd",2,0
+"404","Gilnavi",2,0
+"405","Global Container",4,0
+"406","Global Transport Oceanico",2,0
+"407","GLTL/Saguenay",4,0
+"408","GNMTC",9,0
+"409","GNSL",3,0
+"410","Godby Shpp",1,0
+"411","Gold Star",6,0
+"412","Golden Line",1,0
+"413","Gorthons",5,0
+"414","Govt Iraq",1,0
+"415","Gracechurch",3,0
+"416","Grancolombiana",21,0
+"417","Great Andes",9,0
+"418","Great Eastern",3,0
+"419","Grimaldi",6,0
+"420","GSAL",5,0
+"421","Guiver",3,0
+"422","Gulf Asia",2,0
+"423","Gulfwind",2,0
+"424","GulfWind",1,0
+"425","Guyamas",2,0
+"426","H-L/Nedlloyd",2,0
+"427","Had Line",3,0
+"428","Hae Woo Shpp",2,0
+"429","Hale",6,0
+"430","Hanjin",19,0
+"431","Hanlim Shpp",3,0
+"432","Hapag-Lloyd",6,0
+"433","Hermes",4,0
+"434","Heung-A",15,0
+"435","HIL",2,0
+"436","HK Ming Wah",4,0
+"437","Hobart Express",1,0
+"438","Hoegh",1,0
+"439","Hoegh/Nedlloyd/SNC",4,0
+"440","Hoegh/Nedlloyd/Woermann",3,0
+"441","Holland Canada/UaL",1,0
+"442","Holland Canada/UAL",3,0
+"443","HUAL",14,0
+"444","Hybur",1,0
+"445","Hyundai",4,0
+"446","Hyundai/K-Line",6,0
+"447","Hyundai/k-Line/NLS/NYK",2,0
+"448","Hyundai/K-Line/NLS/NYK",1,0
+"449","Hyundai/Sofeal",6,0
+"450","Ick",1,0
+"451","ICL",1,0
+"452","Imoto Shoun",5,0
+"453","Imoto Shoun/Marda",1,0
+"454","Independent",3,0
+"455","Interforex/Navrom",8,0
+"456","Intl Shpp",1,0
+"457","IOSL/Tropic",2,0
+"458","IPAG",1,0
+"459","Ipag Line",4,0
+"460","IPAG Line",2,0
+"461","Iraqi State",5,0
+"462","Iris",1,0
+"463","IRISL",8,0
+"464","Iscomar",2,0
+"465","Islands&SE Asia",1,0
+"466","Italia/Lauro",2,0
+"467","Ivaran",8,0
+"468","J Burke Shpp",2,0
+"469","Jadroplov",9,0
+"470","Jakarta Shuttle",1,0
+"471","Japan New Zealand",2,0
+"472","Japan/New Zealand",1,0
+"473","Jaseco",5,0
+"474","JBCC",4,0
+"475","JCS",6,0
+"476","Jebsen",1,0
+"477","Johan Shpp",3,0
+"478","JSP Line",2,0
+"479","JTSL",7,0
+"480","Jugolinija",7,0
+"481","Jutha",4,0
+"482","K-Line",9,0
+"483","K-Line/NOL",1,0
+"484","K-Line/NOL/OOCL",10,0
+"485","K-Line/NOL/Sinbad",1,0
+"486","K-Line/NOL/Sindbad",2,0
+"487","K-Line/Sinotrans",1,0
+"488","kansai",1,0
+"489","Kansai",4,0
+"490","Kansal",2,0
+"491","Kanto",8,0
+"492","Karana",3,0
+"493","Karana/OOCL",2,0
+"494","Kass",1,0
+"495","Kattegat",1,0
+"496","Kent",1,0
+"497","Kent Line",7,0
+"498","Kersten",1,0
+"499","Kien Hung",9,0
+"500","King Ocean de Venezuela",2,0
+"501","Kirk",2,0
+"502","Kirk Freignt/Thompson",2,0
+"503","Kirk Line",1,0
+"504","KJK",5,0
+"505","KK Expres",1,0
+"506","KK Express",1,0
+"507","KMTC",4,0
+"508","KNSM/Latvian",2,0
+"509","Koala Express",3,0
+"510","Korea & North Kyushu",1,0
+"511","Korea&North Kyushu",1,0
+"512","Kyowa",4,0
+"513","Kyowa/NYK",1,0
+"514","Lacas",3,0
+"515","Larsen",3,0
+"516","Laser Rosa/Transroll",1,0
+"517","Laser Stream",1,0
+"518","Latvian",4,0
+"519","Laurel/P&O Containers",2,0
+"520","Lauritzen",3,0
+"521","LB",18,0
+"522","LC Line",1,0
+"523","Levant Line",1,0
+"524","Lloyd Bermuda",1,0
+"525","Lorenzo",3,0
+"526","Losinjska Plov",5,0
+"527","Losinjska Plovidba",3,0
+"528","LT/Cia Merzario",2,0
+"529","Lusonautis",1,0
+"530","Lykes",19,0
+"531","Lykes(miltiarry)",1,0
+"532","Lys",6,0
+"533","MAC",2,0
+"534","Macpak",2,0
+"535","Macvan",1,0
+"536","Madras Service",2,0
+"537","Madras shuttle",1,0
+"538","Madras Shuttle",1,0
+"539","Madrigal SS",1,0
+"540","Maersk",41,0
+"541","mafecs",1,0
+"542","Mafecs",8,0
+"543","Main Group",1,0
+"544","Main Group/Pan Asia",3,0
+"545","Malacca feeder",1,0
+"546","Malaysia Shpp",3,0
+"547","Malaysia Shuttle",1,0
+"548","Mambisa",25,0
+"549","Mammoet",3,0
+"550","Mamooet HL",1,0
+"551","Manbisa",1,0
+"552","Maragua",4,0
+"553","Marasia",2,0
+"554","Marcantonakis Lines",1,0
+"555","Marfret",4,0
+"556","Mariago",1,0
+"557","Maritima Orient",1,0
+"558","Maruba",2,0
+"559","Maryland Ship Inc",1,0
+"560","Maston Shuttle",1,0
+"561","Mathies Reed",1,0
+"562","Matson",8,0
+"563","Matson  Shuttle",1,0
+"564","McAllister",6,0
+"565","MD Line",1,0
+"566","MD Linie",1,0
+"567","MECL",4,0
+"568","MECS",3,0
+"569","Med-Atlantic",2,0
+"570","Med-Levant",1,0
+"571","Med Atlantic",2,0
+"572","Med Canada",2,0
+"573","Med Levant",1,0
+"574","Med Pacifico",1,0
+"575","Med/W Af",1,0
+"576","Medipas",1,0
+"577","Mediterranean Cont",3,0
+"578","Medpac",5,0
+"579","MedPac",1,0
+"580","Medsacs",7,0
+"581","Medtrain",1,0
+"582","MEFEL",5,0
+"583","Meng Horng",1,0
+"584","Mercandian",1,0
+"585","Meridian Shpp",2,0
+"586","Merzario",1,0
+"587","Messina",14,0
+"588","Miami Andes",1,0
+"589","Mid-Sea Cont/RCL",4,0
+"590","Mid-Sea/PIL",1,0
+"591","Mid-Sea/RCL",1,0
+"592","Mid Sea Cont/RCL",1,0
+"593","Middle East Line",3,0
+"594","Ministry of Sea",1,0
+"595","Misc",5,0
+"596","MISR",2,0
+"597","MMD",1,0
+"598","Modo",1,0
+"599","Moji",1,0
+"600","MOL",25,0
+"601","MOL/NYK",6,0
+"602","MOL/NYK/TSK",3,0
+"603","MOL/RCL",1,0
+"604","MOL/SK Line",1,0
+"605","MON Lines",1,0
+"606","Montemar",4,0
+"607","Montreal Shpp",4,0
+"608","Mort&Lang",1,0
+"609","MPNC",2,0
+"610","MSC",28,0
+"611","Murmansk",13,0
+"612","Mutualista Acoreana",2,0
+"613","Myanma 7  Star",1,0
+"614","Myanma 7 Star",2,0
+"615","Myanma Europe",1,0
+"616","Myanmar Europe",1,0
+"617","Myanmar Far East",1,0
+"618","NAK",1,0
+"619","Nam Sung",3,0
+"620","Nantai",3,0
+"621","NARSA",1,0
+"622","Narvrom",8,0
+"623","NAS",2,0
+"624","Nautilus",2,0
+"625","Nav Paschold",1,0
+"626","Navale Delmas",1,0
+"627","Navconsa",2,0
+"628","Navibulgar",4,0
+"629","Navicana",2,0
+"630","Navimag",2,0
+"631","Navix",1,0
+"632","Navrom",59,0
+"633","Necol",2,0
+"634","Nedlloyd/Sea-Land/TFL",6,0
+"635","Nedlloyd/Woermann",2,0
+"636","Nedllyd/Sea-Land/TFL",2,0
+"637","Negros",1,0
+"638","Neptunia",1,0
+"639","NES",5,0
+"640","Nesamo",2,0
+"641","Netumar",7,0
+"642","Nexos",1,0
+"643","NG Shpp",2,0
+"644","NGPL",2,0
+"645","Nissan",2,0
+"646","NITS",1,0
+"647","NLS/MOL",1,0
+"648","NLS/NOL/OOCL",15,0
+"649","NNSL",14,0
+"650","NOL",2,0
+"651","Nor Cargo",2,0
+"652","Norasia",3,0
+"653","Norasia/Sea-Land",14,0
+"654","Nordana",4,0
+"655","Nordlund Shipping",1,0
+"656","Nordoe-Link",1,0
+"657","Norfolk Line",1,0
+"658","Normed",1,0
+"659","Normudu",3,0
+"660","Norsul",3,0
+"661","North-Sea Baltic",1,0
+"662","North America",1,0
+"663","North America Cont",6,0
+"664","North West Service",1,0
+"665","Northern Shpp",7,0
+"666","Northland",5,0
+"667","Northsea-Baltic",3,0
+"668","Norwegian American",1,0
+"669","Norwegian Asia",7,0
+"670","NSCP",3,0
+"671","NSCSA",8,0
+"672","NSF",8,0
+"673","NYK",15,0
+"674","NYK.Shofuku",1,0
+"675","NYK/TSK",2,0
+"676","NYK/TSK Line",6,0
+"677","NZ Line",2,0
+"678","NZ Line /TEL",1,0
+"679","NZ Line/TEL",1,0
+"680","NZEAS",3,0
+"681","NZUE",5,0
+"682","Oasis",4,0
+"683","Ocean Bridge",1,0
+"684","Ocean Lines",2,0
+"685","Ocean Star",5,0
+"686","Oceanbridge",2,0
+"687","Odcssa Ocean",3,0
+"688","Odessa Ocean",5,0
+"689","Olau",1,0
+"690","OOCL",3,0
+"691","OOCL ECNA",4,0
+"692","OOCL Med ECNA",1,0
+"693","OOCL/Pan Asia",3,0
+"694","OOCL/UASC/Willine",4,0
+"695","OPDR",7,0
+"696","OPDR/SCMA",3,0
+"697","Orient Express",2,0
+"698","Orient Nav",1,0
+"699","Otal",2,0
+"700","OTAL",3,0
+"701","P&O European Ferries",2,0
+"702","Pac Central America",4,0
+"703","Pace/Columbus",4,0
+"704","Pacfas",4,0
+"705","Pacifica",2,0
+"706","PAG",1,0
+"707","Palau Laut",2,0
+"708","Pan Adriatic",1,0
+"709","Pan Continental",2,0
+"710","Pan Ocean",10,0
+"711","Pandora",1,0
+"712","Pandoro",3,0
+"713","Pasco",3,0
+"714","PCCS",3,0
+"715","PCIS",2,0
+"716","Pegasus",2,0
+"717","Pegasus Mac Andrews",2,0
+"718","Pegasus MacAndrews",1,0
+"719","Pegasus Ocean",1,0
+"720","Perdana",1,0
+"721","Perdana Line",2,0
+"722","Perdana Lines",1,0
+"723","Perintis Lines",2,0
+"724","Perkins Shpp",1,0
+"725","Peru Amazon",3,0
+"726","PEX",1,0
+"727","PIL",22,0
+"728","PIL/Sinotrans",2,0
+"729","Pinillos",10,0
+"730","PIX",5,0
+"731","PM&O",3,0
+"732","PNGFS",1,0
+"733","PNSC",13,0
+"734","PNW Oakland Express",5,0
+"735","PNX",5,0
+"736","Pocific Forum",3,0
+"737","Pohl Shpp",1,0
+"738","POL",17,0
+"739","POL Feeder",1,0
+"740","POL Med",3,0
+"741","POL/Med",2,0
+"742","Polanglia",1,0
+"743","Polfin Ro-Ro",1,0
+"744","Polynesia",1,0
+"745","Polynesia Service",1,0
+"746","Portainer",1,0
+"747","Portline",5,0
+"748","Portlink",3,0
+"749","PPL Lines",5,0
+"750","PRMSA",10,0
+"751","Pro Line",3,0
+"752","Promotora",3,0
+"753","Prompt",3,0
+"754","PSX",5,0
+"755","Pt Dasalines",1,0
+"756","PT Dasalines",1,0
+"757","Pulau Laut",7,0
+"758","Rainbow",1,0
+"759","RCL",1,0
+"760","RCL/MOL",1,0
+"761","RCL/Scan Dutch",1,0
+"762","RCL/ScanDutch",1,0
+"763","Red AB Sealink",1,0
+"764","Red Sea Express",3,0
+"765","Reeler Express",1,0
+"766","Rheintainer",4,0
+"767","Rhinecontainer",1,0
+"768","Rickmers",4,0
+"769","Rinela",3,0
+"770","RMS",8,0
+"771","RMS-Baco",3,0
+"772","RMS Europa",1,0
+"773","RMS Italia",4,0
+"774","RMS UK",2,0
+"775","Ryukyu Kaiun",1,0
+"776","S Asia Europe",4,0
+"777","Sabre",2,0
+"778","Saccs",2,0
+"779","Saeca",1,0
+"780","Saecs",7,0
+"781","Safari",6,0
+"782","Safbank",6,0
+"783","Safmarine",1,0
+"784","Saguenay",1,0
+"785","Saguenay/Unimex",4,0
+"786","Sahalin Shpp",1,0
+"787","Saimaa",1,0
+"788","Samatour",3,0
+"789","Samband",6,0
+"790","Samudera",5,0
+"791","Sanwa",1,0
+"792","Sarlis Cont",5,0
+"793","SAS",5,0
+"794","SBN",1,0
+"795","SBN/SMN",1,0
+"796","Scan Bras",1,0
+"797","Scan Dutch",7,0
+"798","Scanbras",1,0
+"799","ScanDutch",17,0
+"800","Schulz&Clem",1,0
+"801","SCI",30,0
+"802","Scindia",9,0
+"803","Scott",2,0
+"804","SE Asia",4,0
+"805","Sea-Barge",3,0
+"806","Sea-Land",43,0
+"807","Sea Malta",1,0
+"808","Sea River",1,0
+"809","Seaboard",3,0
+"810","Seaboard Marine",1,0
+"811","Sealink",3,0
+"812","Seapak Shpp",3,0
+"813","Seatreck",1,0
+"814","Seaway",2,0
+"815","Secunda Marine",1,0
+"816","Sempas",1,0
+"817","Senator",12,0
+"818","Service A",1,0
+"819","Shanghai Jin Jiang",3,0
+"820","Showa/SK Line",1,0
+"821","Shpp Corp Saudi Arabia",1,0
+"822","SIARM",1,0
+"823","Simsmetal",1,0
+"824","Sindbad",1,0
+"825","Sino Europe",1,0
+"826","Sino European",8,0
+"827","SinoKor",2,0
+"828","Sinotrans",15,0
+"829","SIX",2,0
+"830","SLCS",4,0
+"831","Slobodna Plovidba",1,0
+"832","SMCFS",1,0
+"833","SMTM",1,0
+"834","SN Med",5,0
+"835","SNB/SMN",1,0
+"836","SNC",1,0
+"837","SNCDV",4,0
+"838","SNCM",1,0
+"839","So-Mat",3,0
+"840","Sofrana Unilines",3,0
+"841","Sofrana Unilines/Warner",1,0
+"842","SOL",4,0
+"843","Solid Lines",3,0
+"844","Somali Shp Agency",1,0
+"845","Somers",1,0
+"846","Sonatram",2,0
+"847","Sopac",4,0
+"848","Sotonam",1,0
+"849","South America",8,0
+"850","South China Feeder",1,0
+"851","South Sea",1,0
+"852","South Sea Cont",2,0
+"853","Soviet Danube",2,0
+"854","Soviet German",2,0
+"855","Spanbalt",1,0
+"856","Spleithoff's",3,0
+"857","Spliethoff's",29,0
+"858","Splosna Plovba",4,0
+"859","Sppac",1,0
+"860","SSL",8,0
+"861","Star Fortune",1,0
+"862","Star Shpp",30,0
+"863","Stateships",1,0
+"864","Stena",2,0
+"865","Stena Tor Line",2,0
+"866","Straits",1,0
+"867","Straits Express",1,0
+"868","Streamline",1,0
+"869","Stvomar",1,0
+"870","Sudcargos",1,0
+"871","Sulpicio",6,0
+"872","Surinam",2,0
+"873","Swakop/Unicorn",2,0
+"874","T Klaveness",2,0
+"875","Tarros",5,0
+"876","Tasman Asia",4,0
+"877","Tasman Jebsen",1,0
+"878","Tasman Seacargo/Tranztas",1,0
+"879","Teamline",2,0
+"880","Teasman Seacargo",3,0
+"881","Tecmarine",6,0
+"882","TFH Line",4,0
+"883","Thai Mercantile",3,0
+"884","Thames Shpp",4,0
+"885","Thien&Heyanga",1,0
+"886","Thompson",1,0
+"887","Thong Soon",2,0
+"888","Tientsin Marine",10,0
+"889","Time",3,0
+"890","Tirrenia",13,0
+"891","TMM",3,0
+"892","TMNC",1,0
+"893","TMT",3,0
+"894","Toho Line",2,0
+"895","Tokai Shpp",1,0
+"896","Topgallant",2,0
+"897","Tor Line",9,0
+"898","Torm",4,0
+"899","Totem",2,0
+"900","Trans-Balear",4,0
+"901","Trans-Baltic AB",1,0
+"902","Transatlantica",1,0
+"903","Transbox",2,0
+"904","Transcontinental",2,0
+"905","Transinsular",4,0
+"906","Transmare",3,0
+"907","Transmares",3,0
+"908","Transmeda",1,0
+"909","Transmediterranea",2,0
+"910","Transnave",4,0
+"911","Transroll",2,0
+"912","Transroll Laser Rosa",3,0
+"913","Tranztas",1,0
+"914","Trasatlantica",1,0
+"915","Trasmediterranea",4,0
+"916","Trikora",1,0
+"917","Trikora Lloyd",4,0
+"918","Trio",27,0
+"919","Tropical",9,0
+"920","Truckline",1,0
+"921","TSK",1,0
+"922","Turkish Cargo",11,0
+"923","Turkish Libya",1,0
+"924","UASC",22,0
+"925","UBB",1,0
+"926","UIM",1,0
+"927","UM Holdings",1,0
+"928","UMAG",1,0
+"929","Unicorn",5,0
+"930","Unifeeder",15,0
+"931","Uniglory",10,0
+"932","Uniline",1,0
+"933","Unistar",2,0
+"934","United Fruit",1,0
+"935","Unithai",3,0
+"936","Universal Africa",1,0
+"937","Upper Bay Bengal",1,0
+"938","USSAM",2,0
+"939","UTL",6,0
+"940","UUIE",1,0
+"941","Van Nievelt Goudriaan",2,0
+"942","Van Uden Africa Line",1,0
+"943","Vencaribe",6,0
+"944","Venezuela Cont",1,0
+"945","Venezuela Cont Service",1,0
+"946","Ventouris Line",1,0
+"947","Vietnam General Mar",1,0
+"948","Virginia",1,0
+"949","Vosco",1,0
+"950","W India feeder",1,0
+"951","Waccon",5,0
+"952","Wafe",2,0
+"953","Wallenius Transroll",1,0
+"954","Warner Pacific",1,0
+"955","Washbay",2,0
+"956","Waterman",1,0
+"957","Waterman Isthmian Line",3,0
+"958","WAX",4,0
+"959","WCCA feeder",1,0
+"960","WEC",5,0
+"961","West Africa",6,0
+"962","West Coast India",2,0
+"963","Westwind Africa",1,0
+"964","Westwind Shpp",1,0
+"965","William",7,0
+"966","Wisco",4,0
+"967","Yangming",18,0
+"968","Ybarra",2,0
+"969","YGLL",3,0
+"970","Zefal",12,0
+"971","Zim",14,0
+"972","Zim Cont Srv",12,0
+"973","Zim Eilat East Africa",1,0
+"974","Zim SAS",4,0
+"975","Zimcorn(cellular)",1,0
+"976","ZNSL",3,0
+"977",NA,962,0
