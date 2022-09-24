@@ -85,7 +85,6 @@ colnames(freight_rate_current_status_of_marine_transportation) <-
   colnames_data_set
 ## import CPI data ----
 data(cpi)
-
 cpi_based_on_1995 <-
   cpi/cpi[83]
 cpi_1965_2010_based_on_1995 <-
@@ -93,7 +92,7 @@ cpi_1965_2010_based_on_1995 <-
 cpi_1965_2010_based_on_1995 <-
   cbind(as.numeric(1965:2010),
         cpi_1965_2010_based_on_1995) %>%
-  tibble::as.tibble()
+  tibble::as_tibble()
 colnames(cpi_1965_2010_based_on_1995) <-
   c("year",
     "cpi_based_on_1995")
@@ -350,11 +349,6 @@ freight_rate_global_container_markets_1976 <-
   freight_rate_global_container_markets %>%
   dplyr::filter(year == 1976)
 ### calculate conversion rate based on average of rates of overlapped two routes ----
-# conversion_rate_1976_from_current_status_of_marine_transportation_to_global_container_markets <-
-#   (freight_rate_global_container_markets_1976$transpacific_eastbound/
-#      freight_rate_current_status_of_marine_transportation_1976$transpacific_eastbound +
-#      freight_rate_global_container_markets_1976$transpacific_westbound/
-#      freight_rate_current_status_of_marine_transportation_1976$transpacific_westbound)/2
 conversion_rate_1976_from_current_status_of_marine_transportation_to_global_container_markets <-
   # separate eastbound and westbound
   c(freight_rate_global_container_markets_1976$transpacific_eastbound/
@@ -452,7 +446,7 @@ freight_rate_issues_of_our_ocean_shipping_converted <-
 ### linearly interpolate missing years ----
 year_list_1965_1979 <-
   c(1965:1979) %>%
-  tibble::as.tibble() %>%
+  tibble::as_tibble() %>%
   dplyr::rename(year = value)
 freight_rate_issues_of_our_ocean_shipping <-
   year_list_1965_1979 %>%
@@ -460,8 +454,9 @@ freight_rate_issues_of_our_ocean_shipping <-
     freight_rate_issues_of_our_ocean_shipping_converted,
     by = c("year" = "year"))
 freight_rate_issues_of_our_ocean_shipping[,2:4] <-
-  FreqProf::approxm(freight_rate_issues_of_our_ocean_shipping[,2:4],
-                    n = length(freight_rate_issues_of_our_ocean_shipping$year))
+  FreqProf::approxm(
+    freight_rate_issues_of_our_ocean_shipping[,2:4],
+    n = length(freight_rate_issues_of_our_ocean_shipping$year))
 
 
 
@@ -499,12 +494,6 @@ conversion_ratio_to_transatlantic_eastbound_with_transatlantic_westbound_at_1976
 freight_rate_global_container_markets[1:2,4] <-
   freight_rate_global_container_markets[1:2,5]*
   as.numeric(conversion_ratio_to_transatlantic_eastbound_with_transatlantic_westbound_at_1976)
-# freight_rate_issues_of_our_ocean_shipping <-
-#   freight_rate_issues_of_our_ocean_shipping %>%
-#   dplyr::left_join(freight_rate_global_review_of_maritime_transport,
-#                    by = c("year" = "year")) %>%
-#   dplyr::mutate(transatlantic =
-#                   )
 
 ### compute conversion_ratio of "each bound - aggregate" from two datasets ----
 # 1976 year observes irregular swings of freight rate
@@ -780,14 +769,8 @@ container_freight_rate_each_route <-
                   (route == "transatlantic_westbound"&year>=1966)|
                   (route == "europe_to_asia"&year>=1971)|
                   (route == "asia_to_europe"&year>=1971))
-## restore price dataset ----
 
-
-
-
-
-
-# demand estimates
+# construct route level demand data ----
 
 ## construct demand-shifter markets data -----
 Data_Extract_From_World_Development_Indicators <-
@@ -795,7 +778,7 @@ Data_Extract_From_World_Development_Indicators <-
   tidyr::tibble()
 GDP_table <-
   t(Data_Extract_From_World_Development_Indicators[1:3,5:51]) %>%
-  tibble::as.tibble() %>%
+  tibble::as_tibble() %>%
   dplyr::rename(east_asia = V1,
                 united_state = V2,
                 euro_area = V3) %>%
