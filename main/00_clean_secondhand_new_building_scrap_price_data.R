@@ -140,7 +140,17 @@ converted_newbuilding_1980 <-
   dplyr::filter(year == 1980)
 Lloyd_shipping_economist_1980_1998_newbuilding <-
   Lloyd_shipping_economist_1980_1998 %>% 
-  dplyr::filter(type == "newbuilding_price_per_dwt_1600teu_fullcon") %>% 
+  dplyr::filter(type == "newbuilding_price_per_dwt_1600teu_fullcon"|
+                  type == "newbuilding_price_per_dwt_2500teu_fullcon") %>% 
+  dplyr::mutate(
+    price_per_TEU =
+      ifelse(
+        type == "newbuilding_price_per_dwt_2500teu_fullcon",
+        # marginal building cost of larger ships is lower
+        price_per_TEU * (2500/1600), 
+        price_per_TEU
+      )
+  ) %>% 
   dplyr::select(year,
                 price_per_TEU)
 Lloyd_shipping_economist_1980 <-

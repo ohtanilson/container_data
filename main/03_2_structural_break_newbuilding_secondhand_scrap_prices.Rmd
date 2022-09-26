@@ -69,9 +69,6 @@ lines(fitted(res,
       col = 4)
 lines(confint(res,
               breaks = length(res$breakpoints)))
-# lines(confint(res,
-#               breaks = length(res$breakpoints),
-#               vcov = vcov.ri))
 # legend("topright",
 #        legend=c("BIC = ",
 #                 round(min(AIC(res, k = log(res$nobs))),
@@ -108,7 +105,6 @@ plot(temp,
      main = "Secondhand price",
      ylim = c(4000,50000))
 lines(fitted(res, breaks = length(res$breakpoints)), col = 4)
-#lines(confint(res, breaks = length(res$breakpoints), vcov = vcov.ri))
 lines(confint(res, breaks = length(res$breakpoints)))
 dev.off()
 ```
@@ -146,9 +142,6 @@ lines(fitted(res,
       col = 4)
 lines(confint(res,
               breaks = length(res$breakpoints)))
-# lines(confint(res,
-#               breaks = length(res$breakpoints), 
-#               vcov = vcov.ri))
 dev.off()
 
 ```
