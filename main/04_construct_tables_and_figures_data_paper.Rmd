@@ -250,7 +250,8 @@ BIC_list_for_output %>%
   kableExtra::kbl(
     format = "latex",
     booktabs = TRUE,
-    escape = FALSE
+    escape = FALSE,
+    linesep = ""
   ) %>% 
   kableExtra::save_kable(
     file = here::here("figuretable/BIC_results.tex")
@@ -260,7 +261,8 @@ BIC_list_price_newbuilding_secondhand_scrap_for_output %>%
   kableExtra::kbl(
     format = "latex",
     booktabs = TRUE,
-    escape = FALSE
+    escape = FALSE,
+    linesep = ""
   ) %>% 
   kableExtra::save_kable(
     file = here::here("figuretable/BIC_results_price_newbuilding_secondhand_scrap.tex")

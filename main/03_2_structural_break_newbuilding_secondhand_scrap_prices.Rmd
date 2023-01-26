@@ -154,12 +154,14 @@ dev.off()
 
 ```{r,echo=FALSE,results = 'asis'}
 BIC_list_for_output <- 
-  round(
+   format(
+     round(
     rbind(as.numeric(BIC_list[[1]]),
       as.numeric(c(BIC_list[[2]], " ")),
       as.numeric(BIC_list[[3]])
       ),
-      digits = 2)
+      digits = 2),
+    nsmall = 2)
 model_name <-
   c("Newbuilding",
     "Secondhand",

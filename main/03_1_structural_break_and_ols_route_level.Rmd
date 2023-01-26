@@ -248,14 +248,16 @@ dev.off()
 
 ```{r,echo=FALSE,results = 'asis'}
 BIC_list_for_output <- 
-  round(
+  format(
+    round(
     rbind(as.numeric(BIC_list[[3]]),
       as.numeric(BIC_list[[4]]),
       as.numeric(BIC_list[[1]]),
       as.numeric(BIC_list[[2]]),
       as.numeric(c(BIC_list[[5]]," ")),
       as.numeric(c(BIC_list[[6]]," "))),
-      digits = 2)
+      digits = 2),
+    nsmall = 2)
 model_name <-
   c("Transatlantic westbound",
     "Transatlantic eastbound",
@@ -266,7 +268,16 @@ model_name <-
 rownames(BIC_list_for_output) <-
   model_name
 colnames(BIC_list_for_output) <-
-  c("BIC ($m$ = 0)", 1:9)
+  c("BIC: $m$ = 0", 
+    "$m$ = 1",
+    "$m$ = 2",
+    "$m$ = 3",
+    "$m$ = 4",
+    "$m$ = 5",
+    "$m$ = 6",
+    "$m$ = 7",
+    "$m$ = 8",
+    "$m$ = 9")
 BIC_list_for_output[5:6,10] <-
   "-"
 BIC_list_for_output <-
