@@ -169,7 +169,14 @@ model_name <-
 rownames(BIC_list_for_output) <-
   model_name
 colnames(BIC_list_for_output) <-
-  c("BIC ($m$ = 0)", 1:7)
+  c("BIC: $m$ = 0", 
+    "$m$ = 1",
+    "$m$ = 2",
+    "$m$ = 3",
+    "$m$ = 4",
+    "$m$ = 5",
+    "$m$ = 6",
+    "$m$ = 7")
 BIC_list_for_output[2,8] <-
   "-"
 BIC_list_price_newbuilding_secondhand_scrap_for_output <-
