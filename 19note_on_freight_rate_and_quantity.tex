@@ -44,7 +44,7 @@
 \caption{The observed and imputed variable cells for market-level data.}
 {\tiny{}
 \begin{tablenotes}
-\item[a]\textit{Note:} In the yellow X cells, the route-level variables are recorded in data. In the green Y cells, the route-level cells that cannot identify the eastbound and westbound routes are recorded, so that we assign the the values based on the fixed ratio of the eastbound to the westbound in the closest period. In the orange Z cells, although route-level variables are not recorded, ship-level variables with targeted routes are available, so that we convert firm-level information into route-level variables based on the fixed ratio in the closest period. The red cells are missing values. Thus, we impute the values via interpolation based on the observed points in each route and global liner freight rate.
+\item[a]\textit{Note:} In the yellow X cells, the route-level variables are recorded in data. In the green Y cells, the route-level variables that cannot identify the eastbound and westbound routes are recorded, so that we assign the values based on the fixed ratio of the eastbound to the westbound in the closest period. In the orange Z cells, although route-level variables are not recorded, ship-level variables with targeted routes are available, so that we convert firm-level information into route-level variables based on the fixed ratio in the closest period. The red cells are missing values. Thus, we impute the values via interpolation based on the observed points in each route and global liner freight rate.
 \end{tablenotes}
 }
 \end{figure}
@@ -192,7 +192,7 @@ Processing the above steps generate the time-series data of container shipping q
 We provide a recommendation for constructing newbuilding, secondhand, and scrap prices for container ships from 1967. Our data were collected from a series of \textit{Review (1971-1998)} published by Fearnley and \textit{Lloyd's Shipping Economist (1983-1990)} published by Lloyd's of London Press. 
 
 \subsubsection{Newbuilding prices}
-We collected industry-year-level newbuilding prices per 18000 DWT bulk ships from \textit{Review (1971-1998)}. ). Using the overlapped year, we converted the prices into consistent prices under the assumption that the conversion rate is invariant across years. Then, we divided the price per 12000 dwt by 10 to convert to the price per 1200 TEU and then converted it into the price per TEU. Finally, we converted bulk prices into container prices based on \textit{Lloyd's Shipping Economist (1983-1990)}.
+We collected industry-year-level newbuilding prices per 18000 DWT bulk ships from \textit{Review (1971-1998)}). Using the overlapped year, we converted the prices into consistent prices under the assumption that the conversion rate is invariant across years. Then, we divided the price per 12000 dwt by 10 to convert to the price per 1200 TEU and then converted it into the price per TEU. Finally, we converted bulk prices into container prices based on \textit{Lloyd's Shipping Economist (1983-1990)}.
 
 \subsubsection{Secondhand prices}
 We collected industry-year-level secondhand prices per 16000 DWT CSD (liner type) ships from \textit{Review (1971-1998)}. Using the overlapped year, we converted the prices into consistent prices under the assumption that the conversion rate is invariant across years.
