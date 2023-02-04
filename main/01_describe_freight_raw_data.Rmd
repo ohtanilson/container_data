@@ -35,38 +35,51 @@ options("modelsummary_format_numeric_latex" = "plain")
 
 ```{r,echo=FALSE,results = 'asis'}
 freight_rate_global_container_markets <-
-  read_excel("../input/freight_rate_global_container_markets.xlsx") %>%
+  read_excel(
+    "../input/freight_rate_global_container_markets.xlsx") %>%
   tidyr::tibble()
 freight_rate_main_routes_review_of_maritime_transport <-
-  read_excel("../input/freight_rate_main_routes_review_of_maritime_transport.xlsx") %>%
+  read_excel(
+    "../input/freight_rate_main_routes_review_of_maritime_transport.xlsx") %>%
   tidyr::tibble()
 freight_rate_global_review_of_maritime_transport <-
-  read_excel("../input/freight_rate_global_review_of_maritime_transport.xlsx") %>%
+  read_excel(
+    "../input/freight_rate_global_review_of_maritime_transport.xlsx") %>%
   tidyr::tibble()
 freight_rate_issues_of_our_ocean_shipping <-
-  read_excel("../input/freight_rate_issues_of_our_ocean_shipping.xlsx") %>%
+  read_excel(
+    "../input/freight_rate_issues_of_our_ocean_shipping.xlsx") %>%
   tidyr::tibble()
 freight_rate_EUROFE19781989 <-
-  read_excel("../input/EUROFE19781989.xlsx") %>%
+  read_excel(
+    "../input/EUROFE19781989.xlsx") %>%
   tidyr::tibble()
 freight_rate_EUROFE19781989 <-
-  read_excel("../input/EUROFE19781989.xlsx") %>%
+  read_excel(
+    "../input/EUROFE19781989.xlsx") %>%
   tidyr::tibble()
 freight_revenue_current_status_of_marine_transportation <-
-  read_excel("../input/freight_revenue_current_status_of_marine_transportation.xlsx") %>%
+  read_excel(
+    "../input/freight_revenue_current_status_of_marine_transportation.xlsx") %>%
   tidyr::tibble()
 traffic_amount_current_status_of_marine_transportation <-
-  read_excel("../input/traffic_amount_current_status_of_marine_transportation.xlsx") %>%
+  read_excel(
+    "../input/traffic_amount_current_status_of_marine_transportation.xlsx") %>%
   tidyr::tibble()
 EUROFE19781989 <-
-  read_excel("../input/EUROFE19781989.xlsx") %>%
+  read_excel(
+    "../input/EUROFE19781989.xlsx") %>%
   tidyr::tibble() %>% 
   # dplyr::left_join(cpi_1965_2010_based_on_1995,
   #                  by = c("year" = "year")) %>% 
-  dplyr::mutate(europe_to_asia = 
-                  `Europe-FE Eastbound`)
+  dplyr::mutate(
+    europe_to_asia = 
+      `Europe-FE Eastbound`)
 d_1965_1994_price_rawdata <-
-  readRDS(file = "../cleaned/d_1965_1994_price_rawdata.rds")
+  readRDS(
+    file =
+      "../cleaned/d_1965_1994_price_rawdata.rds"
+    )
 ```
 
 
