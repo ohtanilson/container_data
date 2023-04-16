@@ -77,9 +77,7 @@ EUROFE19781989 <-
       `Europe-FE Eastbound`)
 d_1965_1994_price_rawdata <-
   readRDS(
-    file =
-      "../cleaned/d_1965_1994_price_rawdata.rds"
-    )
+    file = "../cleaned/d_1965_1994_price_rawdata.rds")
 ```
 
 
@@ -238,8 +236,6 @@ freight_rate_issues_of_our_ocean_shipping %>%
   kableExtra::kbl() %>% 
   kableExtra::kable_styling()
 ```
-
-
 
 
 # shipping quantity RAW data {.tabset}

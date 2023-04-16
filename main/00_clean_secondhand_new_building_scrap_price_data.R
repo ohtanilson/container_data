@@ -44,7 +44,8 @@ converted_12000_to_18000 <-
   Review1971_1998 %>% 
   dplyr::filter(
     year == 1968&
-      type == "newbuilding_price_12000dwt_bulk")
+      type == "newbuilding_price_12000dwt_bulk"
+    )
 conversion_rate_12000_to_18000 <-
   converted_12000_to_18000$price_main/
   converted_12000_to_18000$price_sub
@@ -58,7 +59,8 @@ converted_newbuilding <-
         price_sub *
           conversion_rate_12000_to_18000),
     converted_unit =
-      "newbuilding_price_12000dwt_bulk")
+      "newbuilding_price_12000dwt_bulk"
+    )
 
 
 
@@ -67,7 +69,8 @@ converted_secondhand_1989 <-
   Review1971_1998  %>% 
   dplyr::filter(
     year == 1989&
-      type == "second_hand_dry_cargo_price_12000dwt_5years")
+      type == "second_hand_dry_cargo_price_12000dwt_5years"
+    )
 conversion_rate_secondhand <-
   converted_secondhand_1989$price_sub/
   converted_secondhand_1989$price_sub2
@@ -76,7 +79,8 @@ converted_secondhand2 <-
   Review1971_1998 %>% 
   dplyr::filter(
     year == 1981&
-      type == "second_hand_dry_cargo_price_16000dwt_built_1963")
+      type == "second_hand_dry_cargo_price_16000dwt_built_1963"
+    )
 converted_secondhand_per_age_to_5years <-
   converted_secondhand2$price_sub/
   converted_secondhand2$price_main
@@ -88,7 +92,8 @@ converted_secondhand <-
         is.na(price_sub2) == 1,
         price_sub,
         price_sub2 *
-          conversion_rate_secondhand)) %>% 
+          conversion_rate_secondhand)
+    ) %>% 
   dplyr::mutate(
     converted_price = 
       ifelse(
@@ -97,7 +102,8 @@ converted_secondhand <-
           converted_secondhand_per_age_to_5years,
         converted_price),
     converted_unit =
-      "second_hand_dry_cargo_price_12000dwt_5years")
+      "second_hand_dry_cargo_price_12000dwt_5years"
+    )
 
 ## scrap price ----
 converted_scrap <-
@@ -106,7 +112,8 @@ converted_scrap <-
     converted_price = 
       price_main,
     converted_unit =
-      "breaking_price_per_LTD_far_east")
+      "breaking_price_per_LTD_far_east"
+    )
 
 
 
@@ -119,7 +126,8 @@ converted_newbuilding <-
     converted_price = 
       (converted_price*1000000/10)/1200,
     converted_unit =
-      "newbuilding_price_per_TEU")
+      "newbuilding_price_per_TEU"
+    )
 ## secondhand ----
 #2.7+2X=16a
 #0.8+ 0X=11a
@@ -143,7 +151,8 @@ converted_secondhand <-
       (converted_price*1000000*(12000/16000)/10)/
       1200,
     converted_unit =
-      "second_hand_dry_cargo_price_per_TEU_5years") %>% 
+      "second_hand_dry_cargo_price_per_TEU_5years"
+    ) %>% 
   dplyr::select(
     - undepreciated_year)
 ## scrap ----
@@ -153,7 +162,8 @@ converted_scrap <-
     converted_price = 
       (converted_price*10/4),
     converted_unit =
-      "breaking_price_per_TEU_far_east")
+      "breaking_price_per_TEU_far_east"
+    )
 
 # convert bulk into container ----
 ## newbuilding ----
@@ -181,11 +191,11 @@ Lloyd_shipping_economist_1980_1998_newbuilding <-
   ) %>% 
   dplyr::select(
     year,
-    price_per_TEU)
+    price_per_TEU
+    )
 Lloyd_shipping_economist_1980 <-
   Lloyd_shipping_economist_1980_1998_newbuilding %>% 
-  dplyr::filter(
-    year == 1980)
+  dplyr::filter(year == 1980)
 conversion_rate_1980_newbuilding <-
   Lloyd_shipping_economist_1980$price_per_TEU/
   converted_newbuilding_1980$converted_price
@@ -208,8 +218,7 @@ converted_newbuilding <-
         price_per_TEU
       )
   ) %>% 
-  dplyr::select(
-    - price_per_TEU)
+  dplyr::select(- price_per_TEU)
 ## secondhand ----
 converted_secondhand_1980 <-
   converted_secondhand %>% 
@@ -221,7 +230,8 @@ Lloyd_shipping_economist_1980_1998_secondhand <-
       "second_hand_per_dwt_1600teu_fullcon_5years") %>% 
   dplyr::select(
     year,
-    price_per_TEU)
+    price_per_TEU
+    )
 Lloyd_shipping_economist_1980 <-
   Lloyd_shipping_economist_1980_1998_secondhand %>% 
   dplyr::filter(
@@ -250,19 +260,22 @@ converted_secondhand <-
       )
   ) %>% 
   dplyr::select(
-    - price_per_TEU)
+    - price_per_TEU
+    )
 
 # merge and cpi adjustment ----
 price_newbuilding_secondhand_scrap <-
   rbind(
     converted_newbuilding,
     converted_secondhand,
-    converted_scrap) %>% 
+    converted_scrap
+    ) %>% 
   dplyr::select(
     year,
     type,
     converted_unit,
-    converted_price)
+    converted_price
+    )
 price_newbuilding_secondhand_scrap <-
   price_newbuilding_secondhand_scrap %>%
   dplyr::left_join(
@@ -279,7 +292,8 @@ price_newbuilding_secondhand_scrap <-
       cpi_based_on_1995
   ) %>%
   dplyr::select(
-    - cpi_based_on_1995) 
+    - cpi_based_on_1995
+    ) 
 
 # save preprocessed data
 saveRDS(

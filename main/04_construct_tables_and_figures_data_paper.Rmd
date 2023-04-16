@@ -63,12 +63,10 @@ x <- ggplot(route_demand_data,
   scale_color_viridis_d() +
   theme(legend.position = 'top',
         legend.text = element_text(size=8)) +
-  #ggtitle("Freight rate (CPI adjusted to 1995)") +
   theme(plot.title = element_text(hjust = 0.5)) +
   xlab("Year") + 
   ylab("Shipping price (dollars per TEU)") +
   labs(colour = "", fill = "", shape = "") +
-  #expand_limits(y=0, x=2000) + 
   geom_vline(xintercept = 1966, linetype = "longdash") + 
   geom_vline(xintercept = 1980, linetype = "longdash") + 
   annotate("text", x = 1980, y = 5500, size = 1,
@@ -93,17 +91,14 @@ x <- ggplot(route_demand_data,
             aes(x = year, y = q_TEU1000)) + 
   geom_line(aes(color = route), alpha = 0.6, size = 1.0) +
   geom_point(aes(shape = route, color = route)) +
-  #geom_point(aes(shape = route, color = route)) +
   theme_classic() +
   scale_color_viridis_d() +
   theme(legend.position = 'top',
         legend.text = element_text(size=8)) +
-  #ggtitle("Container shipping quantity (1000 TEU)") +
   theme(plot.title = element_text(hjust = 0.5)) +
   xlab("Year") + 
   ylab("Shipping quantity (1000 TEU)") +
   labs(colour = "", fill = "", shape = "") +
-  #expand_limits(y=0, x=2000) + 
   geom_vline(xintercept = 1966, linetype = "longdash") + 
   geom_vline(xintercept = 1980, linetype = "longdash") + 
   annotate("text", x = 1980, y = 7000, size = 1,
@@ -137,7 +132,6 @@ x <- ggplot(price_newbuilding_secondhand_scrap,
   theme(legend.position = 'top',
         legend.text = element_text(size=8)) +
   labs(colour = "", fill = "", shape = "") +
-  #ggtitle("Freight rate (CPI adjusted to 1995)") +
   theme(plot.title = element_text(hjust = 0.5)) +
   xlab("Year") + 
   ylab("dollars per TEU") +
@@ -164,7 +158,8 @@ route_demand_data_for_output <-
     `Price (\\$ per TEU): $P_{rt}$` =
       p_dollars_per_TEU,
     `Quantity (1 mil TEU): $Q_{rt}$` = 
-      (q_TEU1000*1000)/1000000) 
+      (q_TEU1000*1000)/1000000
+    ) 
 f <- 
   (`Price (\\$ per TEU): $P_{rt}$` +
      `Quantity (1 mil TEU): $Q_{rt}$`) ~ 
@@ -192,15 +187,18 @@ modelsummary::datasummary(
 ## add p and q
 price_newbuilding_secondhand_scrap_for_output <-
   price_newbuilding_secondhand_scrap %>%
-  tidyr::pivot_wider(names_from = converted_unit,
-              values_from = converted_price_cpi_adjusted) %>% 
+  tidyr::pivot_wider(
+    names_from = converted_unit,
+    values_from = converted_price_cpi_adjusted
+    ) %>% 
   dplyr::mutate(
     `Newbuilding price (\\$ per TEU): $P_{t}^{new}$` =
       newbuilding,
     `Secondhand price (\\$ per TEU): $P_{t}^{second}$` =
       secondhand,
     `Scrap price (\\$ per TEU): $P_{t}^{scrap}$` =
-      scrap)
+      scrap
+    )
 f <-
   (`Newbuilding price (\\$ per TEU): $P_{t}^{new}$` +
      `Secondhand price (\\$ per TEU): $P_{t}^{second}$` +

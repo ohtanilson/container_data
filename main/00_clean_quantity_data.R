@@ -47,14 +47,14 @@ ratio_trade_1985 <-
     ratio_europe_to_asia_to_asia_to_europe =
       europe_to_asia/
       (europe_to_asia + 
-         asia_to_europe))
+         asia_to_europe)
+    )
 
 ## create data between 1966 and 1973 ----------
 traffic_amount_the_container_crisis_1982 <-
   traffic_amount_the_container_crisis_1982 %>%
   dplyr::filter(
-    is.na(far_east) == 
-      0) %>%
+    is.na(far_east) == 0) %>%
   # rescale measure from million tons to 1000TEU (24 tons = 1 TEU)
   dplyr::mutate(
     unit = 
@@ -67,16 +67,17 @@ traffic_amount_the_container_crisis_1982 <-
       conversion_ratio_million_tons_to_1000TEU,
     far_east =
       far_east*
-      conversion_ratio_million_tons_to_1000TEU) %>%
+      conversion_ratio_million_tons_to_1000TEU
+    ) %>%
   dplyr::select(
     - Source, 
-    - unit)
+    - unit
+    )
 
 containerization_international_1973_before_1970 <-
   containerization_international_1973 %>%
   dplyr::filter(
-    built_year <=
-      73) %>%
+    built_year <= 73) %>%
   dplyr::mutate(
     route =
       dplyr::case_when(
@@ -120,7 +121,8 @@ first_asia_to_europe_route <-
     route ==
       "asia_and_europe") %>%
   dplyr::arrange(
-    built_year)
+    built_year
+    )
 
 containerization_international_1973_before_1970 <-
   containerization_international_1973_before_1970 %>%
@@ -142,7 +144,8 @@ containerization_international_1973_before_1970_transatlantic <-
   containerization_international_1973_before_1970 %>%
   dplyr::filter(
     route == 
-      "transatlantic") %>%
+      "transatlantic"
+    ) %>%
   dplyr::right_join(
     year_list,
     by =
@@ -164,17 +167,20 @@ containerization_international_1973_before_1970_transatlantic <-
     ) %>%
   dplyr::mutate(
     route = 
-      "transatlantic") %>%
+      "transatlantic"
+    ) %>%
   dplyr::mutate(
     cumulative_route_level_capacity_TEU =
       cumsum(
-        route_level_capacity_TEU))
+        route_level_capacity_TEU)
+    )
 
 containerization_international_1973_before_1970_transpacific <-
   containerization_international_1973_before_1970 %>%
   dplyr::filter(
     route == 
-      "transpacific") %>%
+      "transpacific"
+    ) %>%
   dplyr::right_join(
     year_list,
     by = 
@@ -197,7 +203,8 @@ containerization_international_1973_before_1970_transpacific <-
     ) %>%
   dplyr::mutate(
     route =
-      "transpacific") %>%
+      "transpacific"
+    ) %>%
   dplyr::mutate(
     cumulative_route_level_capacity_TEU =
       cumsum(
@@ -218,7 +225,8 @@ containerization_international_1973_before_1970_asia_and_europe <-
         )
     ) %>%
   dplyr::arrange(
-    built_year) %>%
+    built_year
+    ) %>%
   dplyr::mutate(
     route_level_capacity_TEU =
       ifelse(
@@ -229,7 +237,8 @@ containerization_international_1973_before_1970_asia_and_europe <-
     ) %>%
   dplyr::mutate(
     route = 
-      "asia_and_europe") %>%
+      "asia_and_europe"
+    ) %>%
   dplyr::mutate(
     cumulative_route_level_capacity_TEU =
       cumsum(
@@ -252,24 +261,29 @@ containerization_international_1973_before_1970 <-
     built_year) %>%
   dplyr::mutate(
     year_level_total_capacity_1000TEU =
-      sum(capacity_1000TEU)) %>%
+      sum(capacity_1000TEU)
+    ) %>%
   dplyr::ungroup() %>%
   dplyr::mutate(
     total_capacity_1000TEU_share =
       capacity_1000TEU/
       year_level_total_capacity_1000TEU) %>%
-  dplyr::mutate(built_year = 
-                  built_year +
-                  1900) %>%
+  dplyr::mutate(
+    built_year = 
+      built_year +
+      1900
+    ) %>%
   dplyr::select(
     built_year,
     route,
-    capacity_1000TEU) %>%
+    capacity_1000TEU
+    ) %>%
   tidyr::pivot_wider(
     names_from = 
       route,
     values_from = 
-      capacity_1000TEU)
+      capacity_1000TEU
+    )
 
 traffic_amount <-
   containerization_international_1973_before_1970 %>%
@@ -384,7 +398,8 @@ traffic_amount_1966_1973 <-
     transatlantic_eastbound,
     transatlantic_westbound,
     europe_to_asia,
-    asia_to_europe)
+    asia_to_europe
+    )
 
 
 ## create data between 1975 and 1989 ----------
@@ -417,7 +432,8 @@ traffic_amount_container_transportation_cost_and_profitability <-
     - unit,
     - transpacific,
     - transatlantic,
-    - asia_and_europe)
+    - asia_and_europe
+    )
 
 ### linearly interpolate missing years ----
 year_list_1975_1990 <-
@@ -450,16 +466,15 @@ traffic_amount_world_sea_trades <-
     is.na(europe_to_asia) == 0) %>%
   dplyr::select(
     - Source,
-    - unit)
+    - unit
+    )
 ## conversion rate from traffic_amount_container_transportation_cost_and_profitability to traffic_amount_world_sea_trades
 traffic_amount_world_sea_trades_1987 <-
   traffic_amount_world_sea_trades %>%
-  dplyr::filter(
-    year == 1987)
+  dplyr::filter(year == 1987)
 traffic_amount_container_transportation_cost_and_profitability_1987 <-
   traffic_amount_container_transportation_cost_and_profitability %>%
-  dplyr::filter(
-    year == 1987)
+  dplyr::filter(year == 1987)
 # set traffic_amount_world_sea_trades_1987 as a key data
 convertion_rate_1987 <-
   traffic_amount_world_sea_trades_1987/
@@ -477,7 +492,8 @@ conversion_rate_list <-
     convertion_rate_1987,
     convertion_rate_1987,
     convertion_rate_1987,
-    convertion_rate_1987)
+    convertion_rate_1987
+    )
 
 traffic_amount_container_transportation_cost_and_profitability[1:12,2:7] <-
   traffic_amount_container_transportation_cost_and_profitability[1:12,2:7]*
@@ -485,19 +501,18 @@ traffic_amount_container_transportation_cost_and_profitability[1:12,2:7] <-
 
 traffic_amount_container_transportation_cost_and_profitability <-
   traffic_amount_container_transportation_cost_and_profitability %>%
-  dplyr::filter(
-    year < 1987) # drop year duplicated across datasets
+  dplyr::filter(year < 1987) # drop year duplicated across datasets
 
 ### interpolate missing 1974 ----
 traffic_amount_1966_1984 <-
   rbind(
     traffic_amount_1966_1973,
-    traffic_amount_container_transportation_cost_and_profitability)
+    traffic_amount_container_transportation_cost_and_profitability
+    )
 year_list_1973_1975 <-
   c(1973:1975) %>%
   tibble::as.tibble() %>%
-  dplyr::rename(
-    year = value)
+  dplyr::rename(year = value)
 traffic_amount_1973_1975 <-
   year_list_1973_1975 %>%
   dplyr::left_join(
@@ -513,34 +528,31 @@ traffic_amount_1973_1975[,2:7] <-
     ) 
 traffic_amount_1974 <-
   traffic_amount_1973_1975 %>% 
-  dplyr::filter(
-    year == 1974)
+  dplyr::filter(year == 1974)
 traffic_amount_1966_1997 <-
   rbind(
     traffic_amount_1966_1973,
     traffic_amount_1974,
     traffic_amount_container_transportation_cost_and_profitability,
     traffic_amount_world_sea_trades %>% 
-      dplyr::filter(
-        year >= 1987))
+      dplyr::filter(year >= 1987))
 
 ## create data between 1995 and 2007 ----------
 traffic_amount_review_of_maritime_transport <-
   traffic_amount_review_of_maritime_transport %>%
   dplyr::filter(
-    is.na(europe_to_asia) ==
-      0) %>%
+    is.na(europe_to_asia) == 0
+    ) %>%
   dplyr::select(
     - Source,
-    - unit)
+    - unit
+    )
 traffic_amount_review_of_maritime_transport_in_1995 <-
   traffic_amount_review_of_maritime_transport %>%
-  dplyr::filter(
-    year == 1995)
+  dplyr::filter(year == 1995)
 traffic_amount_1966_1997_in_1995 <-
   traffic_amount_1966_1997 %>%
-  dplyr::filter(
-    year == 1995)
+  dplyr::filter(year == 1995)
 conversion_ratio_in_1995 <-
   traffic_amount_review_of_maritime_transport_in_1995/
   traffic_amount_1966_1997_in_1995
@@ -567,7 +579,8 @@ traffic_amount_1966_1997_converted <-
       conversion_ratio_in_1995$asia_to_europe
   ) %>%
   dplyr::filter(
-    year < 1995) # drop years duplicated across datasets
+    year < 1995
+    ) # drop years duplicated across datasets
 ## merge quantity data  ----
 
 d <-
@@ -601,12 +614,7 @@ x <- ggplot(d,
   annotate("text", x = 2003, y = 20000, label = "Review of \nMaritime Transport") +
   labs(shape = "Route", color = "Route")
 x
-# figure_name <- "figuretable/container_shipping_quantity_each_route.png"
-# ggsave(filename = figure_name,
-#        plot = x,
-#        device = "png",
-#        width = 10,
-#        height = 7)
+
 container_shipping_quantity_each_route <-
   d
 # drop the pre-period before global containerization

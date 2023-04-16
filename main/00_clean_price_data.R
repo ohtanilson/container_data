@@ -58,13 +58,12 @@ freight_rate_current_status_of_marine_transportation <-
     `transatlantic_eastbound(current_dollars)`,
     `transatlantic_westbound(current_dollars)`,
     `europe_to_asia(current_dollars)`,
-    `asia_to_europe(current_dollars)`) %>% 
-  dplyr::filter(
-    year >= 1973)
+    `asia_to_europe(current_dollars)`
+    ) %>% 
+  dplyr::filter(year >= 1973)
 freight_rate_global_container_markets <-
   freight_rate_global_container_markets %>%
-  dplyr::filter(
-    is.na(Source) == 0) %>%
+  dplyr::filter(is.na(Source) == 0) %>%
   dplyr::select(
     year,
     `transpacific_eastbound(current_dollars)`,
@@ -72,11 +71,11 @@ freight_rate_global_container_markets <-
     `transatlantic_eastbound(current_dollars)`,
     `transatlantic_westbound(current_dollars)`,
     `europe_to_asia(current_dollars)`,
-    `asia_to_europe(current_dollars)`)
+    `asia_to_europe(current_dollars)`
+    )
 freight_rate_main_routes_review_of_maritime_transport <-
   freight_rate_main_routes_review_of_maritime_transport %>%
-  dplyr::filter(
-    is.na(Source) == 0) %>%
+  dplyr::filter(is.na(Source) == 0) %>%
   dplyr::select(
     year,
     `transpacific_eastbound(current_dollars)`,
@@ -84,7 +83,8 @@ freight_rate_main_routes_review_of_maritime_transport <-
     `transatlantic_eastbound(current_dollars)`,
     `transatlantic_westbound(current_dollars)`,
     `europe_to_asia(current_dollars)`,
-    `asia_to_europe(current_dollars)`)
+    `asia_to_europe(current_dollars)`
+    )
 colnames_data_set <-
   c(
     "year",
@@ -116,7 +116,8 @@ cpi_1965_2010_based_on_1995 <-
 cpi_1965_2010_based_on_1995 <-
   cbind(
     as.numeric(1965:2010),
-    cpi_1965_2010_based_on_1995) %>%
+    cpi_1965_2010_based_on_1995
+    ) %>%
   tibble::as_tibble()
 colnames(
   cpi_1965_2010_based_on_1995
@@ -135,12 +136,12 @@ container_freight_rate <-
       is.na(`global container index(1990=100)`) == 0)
 container_freight_rate_1995 <-
   container_freight_rate %>%
-  dplyr::filter(
-    year == 1995)
+  dplyr::filter(year == 1995)
 conversion_ratio_container_freight_rate_1995 <-
   as.numeric(
     container_freight_rate_1995[5]/
-      container_freight_rate_1995[6])
+      container_freight_rate_1995[6]
+    )
 container_freight_rate <-
   container_freight_rate %>%
   dplyr::mutate(
@@ -149,55 +150,58 @@ container_freight_rate <-
         year >= 1997,
         `global container index(1995=100)`,
         `global container index(1990=100)`*
-          conversion_ratio_container_freight_rate_1995)) %>%
+          conversion_ratio_container_freight_rate_1995
+        )
+    ) %>%
   dplyr::select(
     year,
-    merged_container_freight_rate)
+    merged_container_freight_rate
+    )
 
 ## construct global liner freight rate data ----
 freight_rate_global_review_of_maritime_transport_1965 <-
   freight_rate_global_review_of_maritime_transport %>%
-  dplyr::filter(
-    year == 1965)
+  dplyr::filter(year == 1965)
 freight_rate_global_review_of_maritime_transport_1980 <-
   freight_rate_global_review_of_maritime_transport %>%
-  dplyr::filter(
-    year == 1980)
+  dplyr::filter(year == 1980)
 freight_rate_global_review_of_maritime_transport_1985 <-
   freight_rate_global_review_of_maritime_transport %>%
-  dplyr::filter(
-    year == 1985)
+  dplyr::filter(year == 1985)
 freight_rate_global_review_of_maritime_transport_1990 <-
   freight_rate_global_review_of_maritime_transport %>%
-  dplyr::filter(
-    year == 1990)
+  dplyr::filter(year == 1990)
 freight_rate_global_review_of_maritime_transport_1995 <-
   freight_rate_global_review_of_maritime_transport %>%
-  dplyr::filter(
-    year == 1995)
+  dplyr::filter(year == 1995)
 
 # different series of RMT have different benchmark year, so I calculate
 # conversion rate based on matched years.
 conversion_rate_in_1965 <-
   as.numeric(
     freight_rate_global_review_of_maritime_transport_1965[11]/
-      freight_rate_global_review_of_maritime_transport_1965[12])
+      freight_rate_global_review_of_maritime_transport_1965[12]
+    )
 conversion_rate_in_1980 <-
   as.numeric(
     freight_rate_global_review_of_maritime_transport_1980[10]/
-      freight_rate_global_review_of_maritime_transport_1980[11])
+      freight_rate_global_review_of_maritime_transport_1980[11]
+    )
 conversion_rate_in_1985 <-
   as.numeric(
     freight_rate_global_review_of_maritime_transport_1985[9]/
-      freight_rate_global_review_of_maritime_transport_1985[10])
+      freight_rate_global_review_of_maritime_transport_1985[10]
+    )
 conversion_rate_in_1990 <-
   as.numeric(
     freight_rate_global_review_of_maritime_transport_1990[8]/
-      freight_rate_global_review_of_maritime_transport_1990[9])
+      freight_rate_global_review_of_maritime_transport_1990[9]
+    )
 conversion_rate_in_1995 <-
   as.numeric(
     freight_rate_global_review_of_maritime_transport_1995[7]/
-      freight_rate_global_review_of_maritime_transport_1995[8])
+      freight_rate_global_review_of_maritime_transport_1995[8]
+    )
 freight_rate_global_review_of_maritime_transport <-
   freight_rate_global_review_of_maritime_transport %>%
   dplyr::group_by(year) %>%
@@ -230,11 +234,13 @@ freight_rate_global_review_of_maritime_transport <-
           `global rate(1990=100)`*
           conversion_rate_in_1995,
         year >= 1997 ~
-          `global rate(1995=100)`)
+          `global rate(1995=100)`
+        )
   ) %>%
   dplyr::select(
     year,
-    global_liner_freight_rate)
+    global_liner_freight_rate
+    )
 
 ## merge liner and container freight rate data ----
 ### not deflated price based on year 1995=100 ----
@@ -251,14 +257,17 @@ merged_freight_rate_global_review_of_maritime_transport <-
   tidyr::gather(
     "route",
     "value",
-    - year) %>%
+    - year
+    ) %>%
   dplyr::mutate(
     route =
       ifelse(
         route == 
           "global_liner_freight_rate",
         "liner freight rate",
-        "container freight rate"))
+        "container freight rate"
+        )
+    )
 ### deflated price based on year 1995=100 ----
 merged_freight_rate_global_review_of_maritime_transport_deflated <-
   freight_rate_global_review_of_maritime_transport %>%
@@ -289,22 +298,27 @@ merged_freight_rate_global_review_of_maritime_transport_deflated <-
   dplyr::select(
     - global_liner_freight_rate,
     - merged_container_freight_rate,
-    - cpi_based_on_1995) %>%
+    - cpi_based_on_1995
+    ) %>%
   tidyr::gather(
     "route",
     "value",
-    - year) %>%
+    - year
+    ) %>%
   dplyr::mutate(
     route =
       ifelse(
         route ==
           "global_liner_freight_rate_deflated",
         "liner freight rate (CPI adjusted to 1995)",
-        "container freight rate (CPI adjusted to 1995)"))
+        "container freight rate (CPI adjusted to 1995)"
+        )
+    )
 d <-
   rbind(
     merged_freight_rate_global_review_of_maritime_transport,
-    merged_freight_rate_global_review_of_maritime_transport_deflated)
+    merged_freight_rate_global_review_of_maritime_transport_deflated
+    )
 d <-
   merged_freight_rate_global_review_of_maritime_transport_deflated
 x <-
@@ -330,8 +344,7 @@ ggsave(filename = figure_name,
 ## create 1994-2009 route-level data between ----------
 freight_rate_main_routes_review_of_maritime_transport <-
   freight_rate_main_routes_review_of_maritime_transport %>%
-  dplyr::group_by(
-    year) %>%
+  dplyr::group_by(year) %>%
   dplyr::summarise(
     transpacific_eastbound =
       mean(transpacific_eastbound,
@@ -350,7 +363,8 @@ freight_rate_main_routes_review_of_maritime_transport <-
            na.rm = T),
     asia_to_europe =
       mean(asia_to_europe,
-           na.rm = T)) %>%
+           na.rm = T)
+    ) %>%
   dplyr::left_join(
     freight_rate_global_review_of_maritime_transport,
     by = 
@@ -362,24 +376,24 @@ freight_rate_main_routes_review_of_maritime_transport <-
 ## create 1976-1994 route-level data ----------
 freight_rate_main_routes_review_of_maritime_transport_year1994 <-
   freight_rate_main_routes_review_of_maritime_transport %>%
-  dplyr::filter(
-    year == 1994) %>%
+  dplyr::filter(year == 1994) %>%
   dplyr::summarise(
-    mean(
-      transpacific_eastbound))
+    mean(transpacific_eastbound)
+    )
 freight_rate_global_container_markets_year1994 <-
   freight_rate_global_container_markets %>%
   dplyr::filter(
     year == 1994) %>%
   dplyr::summarise(
-    mean(
-      transpacific_eastbound))
+    mean(transpacific_eastbound)
+    )
 
 ### compute conversion_ratio of TEU-FEU from two datasets ----
 conversion_ratio_from_FEU_to_TEU <-
   as.numeric(
     freight_rate_main_routes_review_of_maritime_transport_year1994/
-      freight_rate_global_container_markets_year1994)
+      freight_rate_global_container_markets_year1994
+    )
 freight_rate_global_container_markets <-
   freight_rate_global_container_markets %>%
   dplyr::mutate(
@@ -400,7 +414,8 @@ freight_rate_global_container_markets <-
       conversion_ratio_from_FEU_to_TEU,
     asia_to_europe =
       asia_to_europe*
-      conversion_ratio_from_FEU_to_TEU) %>%
+      conversion_ratio_from_FEU_to_TEU
+    ) %>%
   dplyr::left_join(
     freight_rate_global_review_of_maritime_transport,
     by = 
@@ -411,45 +426,45 @@ freight_rate_global_container_markets <-
     )
 conversion_ratio_from_liner_freight_rate_to_route_level_1990 <-
   freight_rate_global_container_markets %>%
-  dplyr::filter(
-    year == 1990) %>%
+  dplyr::filter(year == 1990) %>%
   dplyr::mutate(
     europe_to_asia_conversion_rate =
       europe_to_asia/
       global_liner_freight_rate,
     asia_to_europe_conversion_rate =
       asia_to_europe/
-      global_liner_freight_rate)
+      global_liner_freight_rate
+    )
 conversion_ratio_from_liner_freight_rate_to_route_level_1978 <-
   freight_rate_global_container_markets %>%
-  dplyr::filter(
-    year == 1978) %>%
+  dplyr::filter(year == 1978) %>%
   dplyr::mutate(
     transatlantic_eastbound_conversion_rate =
       transatlantic_eastbound/
       global_liner_freight_rate,
     transatlantic_westbound_conversion_rate =
       transatlantic_westbound/
-      global_liner_freight_rate)
+      global_liner_freight_rate
+    )
 conversion_ratio_from_liner_freight_rate_to_route_level_1990 <-
   freight_rate_global_container_markets %>%
-  dplyr::filter(
-    year == 1990) %>%
+  dplyr::filter(year == 1990) %>%
   dplyr::mutate(
     europe_to_asia_conversion_rate =
       europe_to_asia/
       global_liner_freight_rate,
     asia_to_europe_conversion_rate =
       asia_to_europe/
-      global_liner_freight_rate)
+      global_liner_freight_rate
+    )
 ### insert europe_to_asia data from Lloyd's Shipping Economists ----
 EUROFE19781989 <-
-  readxl::read_excel(
-    "input/EUROFE19781989.xlsx") %>%
+  readxl::read_excel("input/EUROFE19781989.xlsx") %>%
   tidyr::tibble() %>% 
   dplyr::mutate(
     europe_to_asia = 
-      `Europe-FE Eastbound`)
+      `Europe-FE Eastbound`
+    )
 # compute conversion rate at 1990
 EUROFE19781989_conversion_rate_1990 <-
   as.numeric(
@@ -465,16 +480,13 @@ freight_rate_global_container_markets[3:14,6] <-
 # compute conversion rate at 1976
 freight_rate_current_status_of_marine_transportation_1976 <-
   freight_rate_current_status_of_marine_transportation %>% 
-  dplyr::filter(
-    year == 1976)
+  dplyr::filter(year == 1976)
 freight_rate_issues_of_our_ocean_shipping_1976 <-
   freight_rate_issues_of_our_ocean_shipping %>% 
-  dplyr::filter(
-    year == 1976)
+  dplyr::filter(year == 1976)
 freight_rate_global_container_markets_1976 <-
   freight_rate_global_container_markets %>%
-  dplyr::filter(
-    year == 1976)
+  dplyr::filter(year == 1976)
 ### calculate conversion rate based on average of rates of overlapped two routes ----
 conversion_rate_1976_from_current_status_of_marine_transportation_to_global_container_markets <-
   # separate eastbound and westbound
@@ -503,7 +515,8 @@ freight_rate_current_status_of_marine_transportation_1973_1975 <-
       conversion_rate_1976_from_current_status_of_marine_transportation_to_global_container_markets[1],
     asia_to_europe = 
       asia_to_europe*
-      conversion_rate_1976_from_current_status_of_marine_transportation_to_global_container_markets[2])
+      conversion_rate_1976_from_current_status_of_marine_transportation_to_global_container_markets[2]
+    )
 freight_rate_current_status_of_marine_transportation[1:3,2:7] <-
   freight_rate_current_status_of_marine_transportation_1973_1975
 freight_rate_current_status_of_marine_transportation <-
@@ -514,7 +527,8 @@ freight_rate_current_status_of_marine_transportation <-
 d_1973_1994 <-
   rbind(
     freight_rate_current_status_of_marine_transportation,
-    freight_rate_global_container_markets[,1:7])
+    freight_rate_global_container_markets[,1:7]
+    )
 
 
 ## create 1966-1973 route-level data ----------
@@ -557,13 +571,14 @@ freight_rate_issues_of_our_ocean_shipping_converted <-
   freight_rate_issues_of_our_ocean_shipping %>%
   dplyr::filter(
     is.na(
-      `transpacific(constant_1979)`) ==
-      0) %>%
+      `transpacific(constant_1979)`) == 0
+    ) %>%
   dplyr::select(
     year,
     `transpacific(constant_1979)`,
     `transatlantic(constant_1979)`,
-    `asia_to_europe(constant_1979)`) %>%
+    `asia_to_europe(constant_1979)`
+    ) %>%
   dplyr::mutate(
     `asia_to_europe(constant_1979)` =
       ifelse(
@@ -571,7 +586,9 @@ freight_rate_issues_of_our_ocean_shipping_converted <-
           `asia_to_europe(constant_1979)`) ==
           1,
         `transpacific(constant_1979)`,
-        `asia_to_europe(constant_1979)`)) %>%
+        `asia_to_europe(constant_1979)`
+        )
+    ) %>%
   dplyr::group_by(
     year) %>%
   # take the mean of three main types of cargo.
@@ -583,7 +600,8 @@ freight_rate_issues_of_our_ocean_shipping_converted <-
       (mean(`transpacific(constant_1979)`) +
          mean(`asia_to_europe(constant_1979)`))/2,
     asia_to_europe =
-      mean(`asia_to_europe(constant_1979)`)) %>%
+      mean(`asia_to_europe(constant_1979)`)
+    ) %>%
   dplyr::ungroup() %>%
   # compute route-level freight rate per mile-distance
   dplyr::mutate(
@@ -598,14 +616,14 @@ freight_rate_issues_of_our_ocean_shipping_converted <-
     asia_to_europe =
       (asia_to_europe/100)*
       asia_to_europe_distance_mile*
-      conversion_ratio_tons_to_TEU)
+      conversion_ratio_tons_to_TEU
+    )
 
 ### linearly interpolate missing years ----
 year_list_1965_1979 <-
   c(1965:1979) %>%
   tibble::as_tibble() %>%
-  dplyr::rename(
-    year = value)
+  dplyr::rename(year = value)
 freight_rate_issues_of_our_ocean_shipping <-
   year_list_1965_1979 %>%
   dplyr::left_join(
@@ -620,13 +638,13 @@ freight_rate_issues_of_our_ocean_shipping[,2:4] <-
   FreqProf::approxm(
     freight_rate_issues_of_our_ocean_shipping[,2:4],
     n = 
-      length(freight_rate_issues_of_our_ocean_shipping$year))
+      length(freight_rate_issues_of_our_ocean_shipping$year)
+    )
 
 ### impute missing transatlantic using liner freight rate and yearly level proportional rates ----
 conversion_ratio_from_liner_freight_rate_to_route_level_1976 <-
   freight_rate_global_container_markets %>%
-  dplyr::filter(
-    year == 1976) %>%
+  dplyr::filter(year == 1976) %>%
   dplyr::mutate(
     transatlantic_eastbound_conversion_rate =
       transatlantic_eastbound/
@@ -640,7 +658,8 @@ conversion_ratio_to_transatlantic_eastbound_with_transatlantic_westbound_at_1976
 freight_rate_global_container_markets[1:2,4] <-
   freight_rate_global_container_markets[1:2,5]*
   as.numeric(
-    conversion_ratio_to_transatlantic_eastbound_with_transatlantic_westbound_at_1976)
+    conversion_ratio_to_transatlantic_eastbound_with_transatlantic_westbound_at_1976
+    )
 
 ### compute conversion_ratio of "each bound - aggregate" from two datasets ----
 # 1976 year observes irregular swings of freight rate
@@ -648,8 +667,7 @@ freight_rate_global_container_markets[1:2,4] <-
 # and 1976 of freight_rate_global_container_markets
 freight_rate_issues_of_our_ocean_shipping_1976 <-
   freight_rate_issues_of_our_ocean_shipping %>%
-  dplyr::filter(
-    year == 1976) %>%
+  dplyr::filter(year == 1976) %>%
   dplyr::left_join(
     freight_rate_global_review_of_maritime_transport,
     by = 
@@ -660,8 +678,7 @@ freight_rate_issues_of_our_ocean_shipping_1976 <-
     )
 freight_rate_global_container_markets_year1976 <-
   freight_rate_global_container_markets %>%
-  dplyr::filter(
-    year == 1976)
+  dplyr::filter(year == 1976)
 conversion_ratio_aggregate_to_each_bound <-
   freight_rate_global_container_markets_year1976 %>%
   dplyr::mutate(
@@ -682,7 +699,8 @@ conversion_ratio_aggregate_to_each_bound <-
       freight_rate_issues_of_our_ocean_shipping_1976$asia_to_europe,
     asia_to_europe_rate =
       asia_to_europe/
-      freight_rate_issues_of_our_ocean_shipping_1976$asia_to_europe) %>%
+      freight_rate_issues_of_our_ocean_shipping_1976$asia_to_europe
+    ) %>%
   dplyr::select(
     year,
     transpacific_eastbound_rate,
@@ -690,7 +708,8 @@ conversion_ratio_aggregate_to_each_bound <-
     transatlantic_eastbound_rate,
     transatlantic_westbound_rate,
     europe_to_asia_rate,
-    asia_to_europe_rate)
+    asia_to_europe_rate
+    )
 route_level_freight_rate_issues_of_our_ocean_shipping <-
   freight_rate_issues_of_our_ocean_shipping %>%
   dplyr::mutate(
@@ -711,7 +730,8 @@ route_level_freight_rate_issues_of_our_ocean_shipping <-
       conversion_ratio_aggregate_to_each_bound$europe_to_asia_rate,
     asia_to_europe =
       asia_to_europe*
-      conversion_ratio_aggregate_to_each_bound$asia_to_europe_rate) %>%
+      conversion_ratio_aggregate_to_each_bound$asia_to_europe_rate
+    ) %>%
   dplyr::select(
     year,
     transpacific_eastbound,
@@ -719,7 +739,8 @@ route_level_freight_rate_issues_of_our_ocean_shipping <-
     transatlantic_eastbound,
     transatlantic_westbound,
     europe_to_asia,
-    asia_to_europe) %>%
+    asia_to_europe
+    ) %>%
   dplyr::left_join(
     freight_rate_global_review_of_maritime_transport,
     by = 
@@ -732,23 +753,23 @@ route_level_freight_rate_issues_of_our_ocean_shipping <-
 ## merge dataset between 1965 and 1994 ----
 route_level_freight_rate_issues_of_our_ocean_shipping_1976 <-
   route_level_freight_rate_issues_of_our_ocean_shipping %>% 
-  dplyr::filter(
-    year == 1976)
+  dplyr::filter(year == 1976)
 d_1973_1994 <-
   rbind(
     freight_rate_current_status_of_marine_transportation,
-    freight_rate_global_container_markets[,1:7])
+    freight_rate_global_container_markets[,1:7]
+    )
 d_1973_1994_at_1976 <-
   d_1973_1994 %>% 
-  dplyr::filter(
-    year == 1976)
+  dplyr::filter(year == 1976)
 d_1965_1994 <-
   rbind(
     route_level_freight_rate_issues_of_our_ocean_shipping[1:8,1:7],
     d_1973_1994) %>%
   dplyr::distinct(
     year,
-    .keep_all = TRUE) %>%
+    .keep_all = TRUE
+    ) %>%
   dplyr::arrange(year) 
 ## impute missing asia_to_europe ----
 fixed_rate_europe_and_asia_at_1976 <-
@@ -761,7 +782,8 @@ d_1965_1994 <-
       ifelse(
         is.na(asia_to_europe) == 1,
         europe_to_asia*fixed_rate_europe_and_asia_at_1976,
-        asia_to_europe))
+        asia_to_europe)
+    )
 ## impute missing routes by linear interpolation ----
 d_1965_1994[8:13,4] <-
   FreqProf::approxm(
@@ -811,8 +833,7 @@ d_1965_1994[,7] <-
     convertion_rate_1994[6])
 d_1965_1994 <-
   d_1965_1994 %>% 
-  dplyr::filter(
-    year < 1993) # drop duplicate year 1994 from RMT
+  dplyr::filter(year < 1993) # drop duplicate year 1994 from RMT
 
 d_1965_1994_price_rawdata <-
   d_1965_1994
@@ -822,7 +843,8 @@ d_1965_1994_for_plots <-
   tidyr::gather(
     key = "route",
     value = "value",
-    - year)
+    - year
+    )
 x <- 
   ggplot(
     d_1965_1994_for_plots,
@@ -837,7 +859,8 @@ x
 d_1965_2009 <-
   rbind(
     d_1965_1994,
-    freight_rate_main_routes_review_of_maritime_transport[,1:7])
+    freight_rate_main_routes_review_of_maritime_transport[,1:7]
+    )
 
 colnames(
   d_1965_2009
@@ -857,7 +880,8 @@ d_1965_2009_nondeflated <-
   tidyr::gather(
     key = "route",
     value = "value",
-    - year)
+    - year
+    )
 x <- ggplot(
   d_1965_2009_nondeflated,
   aes(x = year, y = value)) +
@@ -919,12 +943,12 @@ d_1965_2009 <-
       asia_to_europe/
       cpi_based_on_1995
   ) %>%
-  dplyr::select(
-    - cpi_based_on_1995) %>%
+  dplyr::select(- cpi_based_on_1995) %>%
   tidyr::gather(
     key = "route",
     value = "value",
-    - year)
+    - year
+    )
 
 
 temp_merged_freight_rate_global_review_of_maritime_transport_deflated <-
@@ -933,10 +957,12 @@ temp_merged_freight_rate_global_review_of_maritime_transport_deflated <-
     route2 = 
       route,
     liner_freight_rate =
-      value) %>%
+      value
+    ) %>%
   dplyr::filter(
     route2 != 
-      "container freight rate (CPI adjusted to 1995)")
+      "container freight rate (CPI adjusted to 1995)"
+    )
 d_1965_2009 <-
   d_1965_2009 %>%
   dplyr::left_join(
@@ -983,7 +1009,8 @@ container_freight_rate_each_route <-
     route = 
       route,
     liner_freight_rate_CPI_adjusted_1995 =
-      route2)
+      route2
+    )
 # drop the pre-period before global containerization
 container_freight_rate_each_route <-
   container_freight_rate_each_route %>% 
@@ -993,7 +1020,8 @@ container_freight_rate_each_route <-
       (route == "transatlantic_eastbound"&year >= 1966)|
       (route == "transatlantic_westbound"&year >= 1966)|
       (route == "europe_to_asia"&year >= 1971)|
-      (route == "asia_to_europe"&year >= 1971))
+      (route == "asia_to_europe"&year >= 1971)
+    )
 
 # construct route level demand data ----
 
@@ -1010,12 +1038,16 @@ GDP_table <-
                 euro_area = V3) %>%
   dplyr::mutate(year = c(1964:2010)) %>%
   dplyr::select(year, everything()) %>%
-  tidyr::gather(key = "route",
-                value = "value",
-                -year) %>%
+  tidyr::gather(
+    key = "route",
+    value = "value",
+    -year
+    ) %>%
   dplyr::mutate(log_GDP = log(value))
-ggplot(GDP_table,
-       aes(x = year, y = log_GDP)) +
+ggplot(
+  GDP_table,
+  aes(x = year, y = log_GDP)
+  ) +
   geom_point(aes(color = route)) +
   geom_line(aes(color = route))
 ### assign route-level routes ----
@@ -1033,7 +1065,8 @@ GDP_table_eastbound <-
         route == 
           "euro_area" ~ 
           "transatlantic_eastbound"
-        ))
+        )
+    )
 quantity_eastbound <-
   d_1965_2009 %>%
   dplyr::select(
@@ -1045,7 +1078,8 @@ quantity_eastbound <-
       route ==
       "transatlantic_eastbound"|
       route ==
-      "europe_to_asia") %>%
+      "europe_to_asia"
+    ) %>%
   dplyr::left_join(
     GDP_table_eastbound,
     by = 
@@ -1053,7 +1087,8 @@ quantity_eastbound <-
         "year" = 
           "year",
         "route" = 
-          "route"))
+          "route")
+    )
 GDP_table_westbound <-
   GDP_table %>%
   dplyr::mutate(
@@ -1068,19 +1103,22 @@ GDP_table_westbound <-
         route == 
           "euro_area" ~
           "asia_to_europe"
-                  ))
+        )
+    )
 quantity_westbound <-
   d_1965_2009 %>%
   dplyr::select(
     year,
-    route) %>%
+    route
+    ) %>%
   dplyr::filter(
     route == 
       "transpacific_westbound"|
       route == 
       "transatlantic_westbound"|
       route == 
-      "asia_to_europe") %>%
+      "asia_to_europe"
+    ) %>%
   dplyr::left_join(
     GDP_table_westbound,
     by = 
@@ -1095,12 +1133,13 @@ quantity_westbound <-
 GDP_of_destination_route_level <-
   rbind(
     quantity_eastbound,
-    quantity_westbound) %>%
-  dplyr::arrange(
-    year) %>%
+    quantity_westbound
+    ) %>%
+  dplyr::arrange(year) %>%
   dplyr::rename(
     route = route,
-    GDP = value)
+    GDP = value
+    )
 
 
 ## construct price instruments data -----
@@ -1110,8 +1149,7 @@ GDP_of_destination_route_level <-
 #https://ourworldindata.org/grapher/crude-oil-prices?time=1960..latest
 
 crude_oil_prices <-
-  read.csv(
-    "input/crude-oil-prices.csv") %>%
+  read.csv("input/crude-oil-prices.csv") %>%
   tidyr::tibble()
 crude_oil_prices <-
   crude_oil_prices[,3:4]
@@ -1137,7 +1175,8 @@ crude_oil_prices <-
   dplyr::mutate(
     crude_oil_prices_cpi_adjusted_1995 =
       crude_oil_price/
-      cpi_based_on_1995)
+      cpi_based_on_1995
+    )
   
 ggplot(
   crude_oil_prices,
@@ -1147,21 +1186,12 @@ ggplot(
 
 ### assign route-level routes ----
 
-
-# miles for each route in freight_rate_issues_of_our_ocean_shipping
-transpacific_distance_mile <-
-  4540
-asia_to_europe_distance_mile <-
-  11474
-transatlantic_distance_mile <-
-  #(12656+4063)/2 # average of Hamburg-SanFrancisco and Hamburg-Halifax
-  4063 #Hamburg-Halifax
-
 crude_oil_prices_route_level <-
   d_1965_2009 %>%
   dplyr::select(
     year,
-    route) %>%
+    route
+    ) %>%
   dplyr::left_join(
     crude_oil_prices,
     by = 
@@ -1202,25 +1232,29 @@ crude_oil_prices_route_level <-
           "europe_to_asia" ~
           crude_oil_prices_cpi_adjusted_1995*
           asia_to_europe_distance_mile/
-          transpacific_distance_mile)
+          transpacific_distance_mile
+        )
   ) %>%
-  dplyr::rename(
-    route = route)
+  dplyr::rename(route = route)
 
 # save preprocessed data ----
 saveRDS(
   container_freight_rate_each_route,
   file = 
-    "cleaned/container_freight_rate_each_route.rds")
+    "cleaned/container_freight_rate_each_route.rds"
+  )
 saveRDS(
   d_1965_1994_price_rawdata,
   file = 
-    "cleaned/d_1965_1994_price_rawdata.rds")
+    "cleaned/d_1965_1994_price_rawdata.rds"
+  )
 saveRDS(
   GDP_of_destination_route_level,
   file = 
-    "cleaned/GDP_of_destination_route_level.rds")
+    "cleaned/GDP_of_destination_route_level.rds"
+  )
 saveRDS(
   crude_oil_prices_route_level,
   file = 
-    "cleaned/crude_oil_prices_route_level.rds")
+    "cleaned/crude_oil_prices_route_level.rds"
+  )
