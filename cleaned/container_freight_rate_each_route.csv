@@ -1,0 +1,301 @@
+"","year","route","value","liner_freight_rate_CPI_adjusted_1995","liner_freight_rate"
+"1",1967,"transpacific_eastbound",4570.85208580983,"liner freight rate (CPI adjusted to 1995)",155.424277016161
+"2",1968,"transpacific_eastbound",4668.69907235621,"liner freight rate (CPI adjusted to 1995)",148.13809993699
+"3",1969,"transpacific_eastbound",4694.14157411292,"liner freight rate (CPI adjusted to 1995)",143.094410522547
+"4",1970,"transpacific_eastbound",4692.76453149207,"liner freight rate (CPI adjusted to 1995)",141.558307657295
+"5",1971,"transpacific_eastbound",4917.69635621521,"liner freight rate (CPI adjusted to 1995)",149.891759687023
+"6",1972,"transpacific_eastbound",5173.54404381674,"liner freight rate (CPI adjusted to 1995)",152.145771110888
+"7",1973,"transpacific_eastbound",4215.55351829172,"liner freight rate (CPI adjusted to 1995)",151.917324007118
+"8",1974,"transpacific_eastbound",4329.75183928272,"liner freight rate (CPI adjusted to 1995)",182.749805529744
+"9",1975,"transpacific_eastbound",4696.33543199779,"liner freight rate (CPI adjusted to 1995)",182.68804486549
+"10",1976,"transpacific_eastbound",4569.21229511137,"liner freight rate (CPI adjusted to 1995)",182.049055356759
+"11",1977,"transpacific_eastbound",4558.37361083047,"liner freight rate (CPI adjusted to 1995)",178.089219430126
+"12",1978,"transpacific_eastbound",5233.65775635407,"liner freight rate (CPI adjusted to 1995)",175.130983464296
+"13",1979,"transpacific_eastbound",4550.98684432451,"liner freight rate (CPI adjusted to 1995)",163.916460932827
+"14",1980,"transpacific_eastbound",3220.92961165049,"liner freight rate (CPI adjusted to 1995)",167.224943409499
+"15",1981,"transpacific_eastbound",2740.98282481309,"liner freight rate (CPI adjusted to 1995)",166.958643215743
+"16",1982,"transpacific_eastbound",2694.17802685841,"liner freight rate (CPI adjusted to 1995)",160.265467703852
+"17",1983,"transpacific_eastbound",2708.21020408163,"liner freight rate (CPI adjusted to 1995)",164.632620993593
+"18",1984,"transpacific_eastbound",3075.73439924574,"liner freight rate (CPI adjusted to 1995)",200.257905281843
+"19",1985,"transpacific_eastbound",2667.93942037782,"liner freight rate (CPI adjusted to 1995)",203.616572358169
+"20",1986,"transpacific_eastbound",2174.47534634292,"liner freight rate (CPI adjusted to 1995)",167.21273720925
+"21",1987,"transpacific_eastbound",2527.027127048,"liner freight rate (CPI adjusted to 1995)",147.982298512941
+"22",1988,"transpacific_eastbound",2289.2732071696,"liner freight rate (CPI adjusted to 1995)",140.938256616236
+"23",1989,"transpacific_eastbound",1965.63643844635,"liner freight rate (CPI adjusted to 1995)",135.570879927985
+"24",1990,"transpacific_eastbound",1906.31475727246,"liner freight rate (CPI adjusted to 1995)",124.045646193166
+"25",1991,"transpacific_eastbound",1908.87062842758,"liner freight rate (CPI adjusted to 1995)",127.079464880571
+"26",1992,"transpacific_eastbound",1930.29950397836,"liner freight rate (CPI adjusted to 1995)",121.804217283509
+"27",1993,"transpacific_eastbound",1856.2214532872,"liner freight rate (CPI adjusted to 1995)",115.231479731222
+"28",1994,"transpacific_eastbound",1790.85425101215,"liner freight rate (CPI adjusted to 1995)",106.115944525799
+"29",1995,"transpacific_eastbound",1777.5,"liner freight rate (CPI adjusted to 1995)",100
+"30",1996,"transpacific_eastbound",1589.07839388145,"liner freight rate (CPI adjusted to 1995)",96.0986127496847
+"31",1997,"transpacific_eastbound",1331.95700934579,"liner freight rate (CPI adjusted to 1995)",94.003738317757
+"32",1998,"transpacific_eastbound",1397.54539877301,"liner freight rate (CPI adjusted to 1995)",83.2122699386503
+"33",1999,"transpacific_eastbound",1834.33433373349,"liner freight rate (CPI adjusted to 1995)",78.6698679471789
+"34",2000,"transpacific_eastbound",1781.31881533101,"liner freight rate (CPI adjusted to 1995)",97.3519163763066
+"35",2001,"transpacific_eastbound",1478.17673630717,"liner freight rate (CPI adjusted to 1995)",98.1005081874647
+"36",2002,"transpacific_eastbound",1272.40022234575,"liner freight rate (CPI adjusted to 1995)",80.4780433574208
+"37",2003,"transpacific_eastbound",1471.40543478261,"liner freight rate (CPI adjusted to 1995)",83.654347826087
+"38",2004,"transpacific_eastbound",1530.85759661196,"liner freight rate (CPI adjusted to 1995)",79.064055055585
+"39",2005,"transpacific_eastbound",1462.35330261137,"liner freight rate (CPI adjusted to 1995)",81.1551459293395
+"40",2006,"transpacific_eastbound",1318.19196428571,"liner freight rate (CPI adjusted to 1995)",75.5952380952381
+"41",2007,"transpacific_eastbound",1237.03446479729,"liner freight rate (CPI adjusted to 1995)",68.3566281795295
+"42",2008,"transpacific_eastbound",1307.02591231892,"liner freight rate (CPI adjusted to 1995)",63.7055684314664
+"43",2009,"transpacific_eastbound",995.756909064637,"liner freight rate (CPI adjusted to 1995)",45.4634864848488
+"44",2010,"transpacific_eastbound",NA,"liner freight rate (CPI adjusted to 1995)",78.2771398172946
+"45",2011,"transpacific_eastbound",NA,NA,NA
+"46",2012,"transpacific_eastbound",NA,NA,NA
+"47",2013,"transpacific_eastbound",NA,NA,NA
+"48",2014,"transpacific_eastbound",NA,NA,NA
+"49",2015,"transpacific_eastbound",NA,NA,NA
+"50",2016,"transpacific_eastbound",NA,NA,NA
+"51",2017,"transpacific_eastbound",NA,NA,NA
+"52",1966,"transatlantic_eastbound",2833.59269296397,"liner freight rate (CPI adjusted to 1995)",154.985331668339
+"53",1967,"transatlantic_eastbound",2937.39460915567,"liner freight rate (CPI adjusted to 1995)",155.424277016161
+"54",1968,"transatlantic_eastbound",3000.27461607949,"liner freight rate (CPI adjusted to 1995)",148.13809993699
+"55",1969,"transatlantic_eastbound",3016.62488646685,"liner freight rate (CPI adjusted to 1995)",143.094410522547
+"56",1970,"transatlantic_eastbound",3015.73994915207,"liner freight rate (CPI adjusted to 1995)",141.558307657295
+"57",1971,"transatlantic_eastbound",3160.2892622704,"liner freight rate (CPI adjusted to 1995)",149.891759687023
+"58",1972,"transatlantic_eastbound",3324.70622528235,"liner freight rate (CPI adjusted to 1995)",152.145771110888
+"59",1973,"transatlantic_eastbound",2670.88780914941,"liner freight rate (CPI adjusted to 1995)",151.917324007118
+"60",1974,"transatlantic_eastbound",3368.28070303707,"liner freight rate (CPI adjusted to 1995)",182.749805529744
+"61",1975,"transatlantic_eastbound",3471.21406975904,"liner freight rate (CPI adjusted to 1995)",182.68804486549
+"62",1976,"transatlantic_eastbound",2936.34082043808,"liner freight rate (CPI adjusted to 1995)",182.049055356759
+"63",1977,"transatlantic_eastbound",2835.83240763101,"liner freight rate (CPI adjusted to 1995)",178.089219430126
+"64",1978,"transatlantic_eastbound",2928.62038006883,"liner freight rate (CPI adjusted to 1995)",175.130983464296
+"65",1979,"transatlantic_eastbound",2893.12195121951,"liner freight rate (CPI adjusted to 1995)",163.916460932827
+"66",1980,"transatlantic_eastbound",2317.30641723893,"liner freight rate (CPI adjusted to 1995)",167.224943409499
+"67",1981,"transatlantic_eastbound",2289.67209208726,"liner freight rate (CPI adjusted to 1995)",166.958643215743
+"68",1982,"transatlantic_eastbound",2028.18341968912,"liner freight rate (CPI adjusted to 1995)",160.265467703852
+"69",1983,"transatlantic_eastbound",1677.48787834264,"liner freight rate (CPI adjusted to 1995)",164.632620993593
+"70",1984,"transatlantic_eastbound",1424.284771943,"liner freight rate (CPI adjusted to 1995)",200.257905281843
+"71",1985,"transatlantic_eastbound",887.295765708587,"liner freight rate (CPI adjusted to 1995)",203.616572358169
+"72",1986,"transatlantic_eastbound",914.659448994125,"liner freight rate (CPI adjusted to 1995)",167.21273720925
+"73",1987,"transatlantic_eastbound",1260.64732909653,"liner freight rate (CPI adjusted to 1995)",147.982298512941
+"74",1988,"transatlantic_eastbound",1573.73117126776,"liner freight rate (CPI adjusted to 1995)",140.938256616236
+"75",1989,"transatlantic_eastbound",1770.87061369001,"liner freight rate (CPI adjusted to 1995)",135.570879927985
+"76",1990,"transatlantic_eastbound",1460.9491107918,"liner freight rate (CPI adjusted to 1995)",124.045646193166
+"77",1991,"transatlantic_eastbound",1507.09987106479,"liner freight rate (CPI adjusted to 1995)",127.079464880571
+"78",1992,"transatlantic_eastbound",1531.10694852494,"liner freight rate (CPI adjusted to 1995)",121.804217283509
+"79",1993,"transatlantic_eastbound",1437.5169550173,"liner freight rate (CPI adjusted to 1995)",115.231479731222
+"80",1994,"transatlantic_eastbound",1320.64574898785,"liner freight rate (CPI adjusted to 1995)",106.115944525799
+"81",1995,"transatlantic_eastbound",1381.5,"liner freight rate (CPI adjusted to 1995)",100
+"82",1996,"transatlantic_eastbound",1376.35946462715,"liner freight rate (CPI adjusted to 1995)",96.0986127496847
+"83",1997,"transatlantic_eastbound",1226.55887850467,"liner freight rate (CPI adjusted to 1995)",94.003738317757
+"84",1998,"transatlantic_eastbound",929.125766871166,"liner freight rate (CPI adjusted to 1995)",83.2122699386503
+"85",1999,"transatlantic_eastbound",744.848139255702,"liner freight rate (CPI adjusted to 1995)",78.6698679471789
+"86",2000,"transatlantic_eastbound",754.256097560976,"liner freight rate (CPI adjusted to 1995)",97.3519163763066
+"87",2001,"transatlantic_eastbound",703.053642010164,"liner freight rate (CPI adjusted to 1995)",98.1005081874647
+"88",2002,"transatlantic_eastbound",651.025013896609,"liner freight rate (CPI adjusted to 1995)",80.4780433574208
+"89",2003,"transatlantic_eastbound",689.734239130435,"liner freight rate (CPI adjusted to 1995)",83.654347826087
+"90",2004,"transatlantic_eastbound",659.13605082054,"liner freight rate (CPI adjusted to 1995)",79.064055055585
+"91",2005,"transatlantic_eastbound",626.416282642089,"liner freight rate (CPI adjusted to 1995)",81.1551459293395
+"92",2006,"transatlantic_eastbound",616.479166666667,"liner freight rate (CPI adjusted to 1995)",75.5952380952381
+"93",2007,"transatlantic_eastbound",565.228463118905,"liner freight rate (CPI adjusted to 1995)",68.3566281795295
+"94",2008,"transatlantic_eastbound",747.832589420491,"liner freight rate (CPI adjusted to 1995)",63.7055684314664
+"95",2009,"transatlantic_eastbound",606.475806038119,"liner freight rate (CPI adjusted to 1995)",45.4634864848488
+"96",2010,"transatlantic_eastbound",NA,"liner freight rate (CPI adjusted to 1995)",78.2771398172946
+"97",2011,"transatlantic_eastbound",NA,NA,NA
+"98",2012,"transatlantic_eastbound",NA,NA,NA
+"99",2013,"transatlantic_eastbound",NA,NA,NA
+"100",2014,"transatlantic_eastbound",NA,NA,NA
+"101",2015,"transatlantic_eastbound",NA,NA,NA
+"102",2016,"transatlantic_eastbound",NA,NA,NA
+"103",2017,"transatlantic_eastbound",NA,NA,NA
+"104",1967,"transpacific_westbound",2722.26781211589,"liner freight rate (CPI adjusted to 1995)",155.424277016161
+"105",1968,"transpacific_westbound",2753.73126383149,"liner freight rate (CPI adjusted to 1995)",148.13809993699
+"106",1969,"transpacific_westbound",2744.84880212536,"liner freight rate (CPI adjusted to 1995)",143.094410522547
+"107",1970,"transpacific_westbound",2722.7333529553,"liner freight rate (CPI adjusted to 1995)",141.558307657295
+"108",1971,"transpacific_westbound",2891.77695967944,"liner freight rate (CPI adjusted to 1995)",149.891759687023
+"109",1972,"transpacific_westbound",3076.3607569227,"liner freight rate (CPI adjusted to 1995)",152.145771110888
+"110",1973,"transpacific_westbound",3093.46506259264,"liner freight rate (CPI adjusted to 1995)",151.917324007118
+"111",1974,"transpacific_westbound",2963.64742228921,"liner freight rate (CPI adjusted to 1995)",182.749805529744
+"112",1975,"transpacific_westbound",2878.54622785507,"liner freight rate (CPI adjusted to 1995)",182.68804486549
+"113",1976,"transpacific_westbound",2875.6371915351,"liner freight rate (CPI adjusted to 1995)",182.049055356759
+"114",1977,"transpacific_westbound",2854.35123966942,"liner freight rate (CPI adjusted to 1995)",178.089219430126
+"115",1978,"transpacific_westbound",3154.88399330731,"liner freight rate (CPI adjusted to 1995)",175.130983464296
+"116",1979,"transpacific_westbound",3372.99023290759,"liner freight rate (CPI adjusted to 1995)",163.916460932827
+"117",1980,"transpacific_westbound",3031.27030008826,"liner freight rate (CPI adjusted to 1995)",167.224943409499
+"118",1981,"transpacific_westbound",2640.06060606061,"liner freight rate (CPI adjusted to 1995)",166.958643215743
+"119",1982,"transpacific_westbound",2547.75758831842,"liner freight rate (CPI adjusted to 1995)",160.265467703852
+"120",1983,"transpacific_westbound",2212.76286966046,"liner freight rate (CPI adjusted to 1995)",164.632620993593
+"121",1984,"transpacific_westbound",2498.28523930353,"liner freight rate (CPI adjusted to 1995)",200.257905281843
+"122",1985,"transpacific_westbound",2321.34454207503,"liner freight rate (CPI adjusted to 1995)",203.616572358169
+"123",1986,"transpacific_westbound",2261.1098540146,"liner freight rate (CPI adjusted to 1995)",167.21273720925
+"124",1987,"transpacific_westbound",2543.63844430218,"liner freight rate (CPI adjusted to 1995)",147.982298512941
+"125",1988,"transpacific_westbound",2318.38192576654,"liner freight rate (CPI adjusted to 1995)",140.938256616236
+"126",1989,"transpacific_westbound",1895.83812316716,"liner freight rate (CPI adjusted to 1995)",135.570879927985
+"127",1990,"transpacific_westbound",1723.70897962023,"liner freight rate (CPI adjusted to 1995)",124.045646193166
+"128",1991,"transpacific_westbound",1258.55626752103,"liner freight rate (CPI adjusted to 1995)",127.079464880571
+"129",1992,"transpacific_westbound",1082.14566189335,"liner freight rate (CPI adjusted to 1995)",121.804217283509
+"130",1993,"transpacific_westbound",1480.75847750865,"liner freight rate (CPI adjusted to 1995)",115.231479731222
+"131",1994,"transpacific_westbound",1454.07287449393,"liner freight rate (CPI adjusted to 1995)",106.115944525799
+"132",1995,"transpacific_westbound",1416,"liner freight rate (CPI adjusted to 1995)",100
+"133",1996,"transpacific_westbound",1507.00191204589,"liner freight rate (CPI adjusted to 1995)",96.0986127496847
+"134",1997,"transpacific_westbound",1415.51588785047,"liner freight rate (CPI adjusted to 1995)",94.003738317757
+"135",1998,"transpacific_westbound",1321.57914110429,"liner freight rate (CPI adjusted to 1995)",83.2122699386503
+"136",1999,"transpacific_westbound",998.466986794718,"liner freight rate (CPI adjusted to 1995)",78.6698679471789
+"137",2000,"transpacific_westbound",864.219512195122,"liner freight rate (CPI adjusted to 1995)",97.3519163763066
+"138",2001,"transpacific_westbound",789.536984754376,"liner freight rate (CPI adjusted to 1995)",98.1005081874647
+"139",2002,"transpacific_westbound",705.030016675931,"liner freight rate (CPI adjusted to 1995)",80.4780433574208
+"140",2003,"transpacific_westbound",719.344565217391,"liner freight rate (CPI adjusted to 1995)",83.654347826087
+"141",2004,"transpacific_westbound",647.6394917946,"liner freight rate (CPI adjusted to 1995)",79.064055055585
+"142",2005,"transpacific_westbound",707.571428571429,"liner freight rate (CPI adjusted to 1995)",81.1551459293395
+"143",2006,"transpacific_westbound",775.229166666667,"liner freight rate (CPI adjusted to 1995)",75.5952380952381
+"144",2007,"transpacific_westbound",801.352837341204,"liner freight rate (CPI adjusted to 1995)",68.3566281795295
+"145",2008,"transpacific_westbound",1043.00172315295,"liner freight rate (CPI adjusted to 1995)",63.7055684314664
+"146",2009,"transpacific_westbound",1041.22039554949,"liner freight rate (CPI adjusted to 1995)",45.4634864848488
+"147",2010,"transpacific_westbound",NA,"liner freight rate (CPI adjusted to 1995)",78.2771398172946
+"148",2011,"transpacific_westbound",NA,NA,NA
+"149",2012,"transpacific_westbound",NA,NA,NA
+"150",2013,"transpacific_westbound",NA,NA,NA
+"151",2014,"transpacific_westbound",NA,NA,NA
+"152",2015,"transpacific_westbound",NA,NA,NA
+"153",2016,"transpacific_westbound",NA,NA,NA
+"154",2017,"transpacific_westbound",NA,NA,NA
+"155",1966,"transatlantic_westbound",2275.27825964891,"liner freight rate (CPI adjusted to 1995)",154.985331668339
+"156",1967,"transatlantic_westbound",2333.04353601166,"liner freight rate (CPI adjusted to 1995)",155.424277016161
+"157",1968,"transatlantic_westbound",2360.00840784351,"liner freight rate (CPI adjusted to 1995)",148.13809993699
+"158",1969,"transatlantic_westbound",2352.39594231932,"liner freight rate (CPI adjusted to 1995)",143.094410522547
+"159",1970,"transatlantic_westbound",2333.44251477536,"liner freight rate (CPI adjusted to 1995)",141.558307657295
+"160",1971,"transatlantic_westbound",2478.31661284042,"liner freight rate (CPI adjusted to 1995)",149.891759687023
+"161",1972,"transatlantic_westbound",2636.50899681317,"liner freight rate (CPI adjusted to 1995)",152.145771110888
+"162",1973,"transatlantic_westbound",2651.16776389098,"liner freight rate (CPI adjusted to 1995)",151.917324007118
+"163",1974,"transatlantic_westbound",2539.9111839093,"liner freight rate (CPI adjusted to 1995)",182.749805529744
+"164",1975,"transatlantic_westbound",2466.97758395349,"liner freight rate (CPI adjusted to 1995)",182.68804486549
+"165",1976,"transatlantic_westbound",2464.48447568834,"liner freight rate (CPI adjusted to 1995)",182.049055356759
+"166",1977,"transatlantic_westbound",2446.24194562313,"liner freight rate (CPI adjusted to 1995)",178.089219430126
+"167",1978,"transatlantic_westbound",2703.80514168858,"liner freight rate (CPI adjusted to 1995)",175.130983464296
+"168",1979,"transatlantic_westbound",2704.14370982553,"liner freight rate (CPI adjusted to 1995)",163.916460932827
+"169",1980,"transatlantic_westbound",2411.70827554323,"liner freight rate (CPI adjusted to 1995)",167.224943409499
+"170",1981,"transatlantic_westbound",2221.45214521452,"liner freight rate (CPI adjusted to 1995)",166.958643215743
+"171",1982,"transatlantic_westbound",1826.81963977301,"liner freight rate (CPI adjusted to 1995)",160.265467703852
+"172",1983,"transatlantic_westbound",1609.05526869382,"liner freight rate (CPI adjusted to 1995)",164.632620993593
+"173",1984,"transatlantic_westbound",1773.83243961685,"liner freight rate (CPI adjusted to 1995)",200.257905281843
+"174",1985,"transatlantic_westbound",1303.24504337051,"liner freight rate (CPI adjusted to 1995)",203.616572358169
+"175",1986,"transatlantic_westbound",1264.84076294752,"liner freight rate (CPI adjusted to 1995)",167.21273720925
+"176",1987,"transatlantic_westbound",1269.68058350101,"liner freight rate (CPI adjusted to 1995)",147.982298512941
+"177",1988,"transatlantic_westbound",1253.10449623636,"liner freight rate (CPI adjusted to 1995)",140.938256616236
+"178",1989,"transatlantic_westbound",1201.96428571429,"liner freight rate (CPI adjusted to 1995)",135.570879927985
+"179",1990,"transatlantic_westbound",1287.49043611324,"liner freight rate (CPI adjusted to 1995)",124.045646193166
+"180",1991,"transatlantic_westbound",1323.74921334172,"liner freight rate (CPI adjusted to 1995)",127.079464880571
+"181",1992,"transatlantic_westbound",1285.06516647999,"liner freight rate (CPI adjusted to 1995)",121.804217283509
+"182",1993,"transatlantic_westbound",1291.9723183391,"liner freight rate (CPI adjusted to 1995)",115.231479731222
+"183",1994,"transatlantic_westbound",1362.55060728745,"liner freight rate (CPI adjusted to 1995)",106.115944525799
+"184",1995,"transatlantic_westbound",1399.5,"liner freight rate (CPI adjusted to 1995)",100
+"185",1996,"transatlantic_westbound",1298.41108986616,"liner freight rate (CPI adjusted to 1995)",96.0986127496847
+"186",1997,"transatlantic_westbound",1206.61869158879,"liner freight rate (CPI adjusted to 1995)",94.003738317757
+"187",1998,"transatlantic_westbound",1146.03865030675,"liner freight rate (CPI adjusted to 1995)",83.2122699386503
+"188",1999,"transatlantic_westbound",989.319327731092,"liner freight rate (CPI adjusted to 1995)",78.6698679471789
+"189",2000,"transatlantic_westbound",1065.33972125436,"liner freight rate (CPI adjusted to 1995)",97.3519163763066
+"190",2001,"transatlantic_westbound",1077.16939582157,"liner freight rate (CPI adjusted to 1995)",98.1005081874647
+"191",2002,"transatlantic_westbound",1001.73985547526,"liner freight rate (CPI adjusted to 1995)",80.4780433574208
+"192",2003,"transatlantic_westbound",1152.11086956522,"liner freight rate (CPI adjusted to 1995)",83.654347826087
+"193",2004,"transatlantic_westbound",1162.9677077819,"liner freight rate (CPI adjusted to 1995)",79.064055055585
+"194",2005,"transatlantic_westbound",1284.63133640553,"liner freight rate (CPI adjusted to 1995)",81.1551459293395
+"195",2006,"transatlantic_westbound",1375.07738095238,"liner freight rate (CPI adjusted to 1995)",75.5952380952381
+"196",2007,"transatlantic_westbound",1256.14491998727,"liner freight rate (CPI adjusted to 1995)",68.3566281795295
+"197",2008,"transatlantic_westbound",1159.44134545269,"liner freight rate (CPI adjusted to 1995)",63.7055684314664
+"198",2009,"transatlantic_westbound",865.937344141104,"liner freight rate (CPI adjusted to 1995)",45.4634864848488
+"199",2010,"transatlantic_westbound",NA,"liner freight rate (CPI adjusted to 1995)",78.2771398172946
+"200",2011,"transatlantic_westbound",NA,NA,NA
+"201",2012,"transatlantic_westbound",NA,NA,NA
+"202",2013,"transatlantic_westbound",NA,NA,NA
+"203",2014,"transatlantic_westbound",NA,NA,NA
+"204",2015,"transatlantic_westbound",NA,NA,NA
+"205",2016,"transatlantic_westbound",NA,NA,NA
+"206",2017,"transatlantic_westbound",NA,NA,NA
+"207",1971,"europe_to_asia",2600.55278482142,"liner freight rate (CPI adjusted to 1995)",149.891759687023
+"208",1972,"europe_to_asia",2852.64906565233,"liner freight rate (CPI adjusted to 1995)",152.145771110888
+"209",1973,"europe_to_asia",3165.45573309045,"liner freight rate (CPI adjusted to 1995)",151.917324007118
+"210",1974,"europe_to_asia",3618.46628244804,"liner freight rate (CPI adjusted to 1995)",182.749805529744
+"211",1975,"europe_to_asia",3748.93160902655,"liner freight rate (CPI adjusted to 1995)",182.68804486549
+"212",1976,"europe_to_asia",3062.1961347772,"liner freight rate (CPI adjusted to 1995)",182.049055356759
+"213",1977,"europe_to_asia",2416.93874790859,"liner freight rate (CPI adjusted to 1995)",178.089219430126
+"214",1978,"europe_to_asia",1820.4603708236,"liner freight rate (CPI adjusted to 1995)",175.130983464296
+"215",1979,"europe_to_asia",2007.16467803653,"liner freight rate (CPI adjusted to 1995)",163.916460932827
+"216",1980,"europe_to_asia",2036.64920955373,"liner freight rate (CPI adjusted to 1995)",167.224943409499
+"217",1981,"europe_to_asia",1975.86823391463,"liner freight rate (CPI adjusted to 1995)",166.958643215743
+"218",1982,"europe_to_asia",1725.23007552369,"liner freight rate (CPI adjusted to 1995)",160.265467703852
+"219",1983,"europe_to_asia",987.387948051181,"liner freight rate (CPI adjusted to 1995)",164.632620993593
+"220",1984,"europe_to_asia",1026.73034614999,"liner freight rate (CPI adjusted to 1995)",200.257905281843
+"221",1985,"europe_to_asia",941.361259524173,"liner freight rate (CPI adjusted to 1995)",203.616572358169
+"222",1986,"europe_to_asia",969.972207825006,"liner freight rate (CPI adjusted to 1995)",167.21273720925
+"223",1987,"europe_to_asia",1077.67030963687,"liner freight rate (CPI adjusted to 1995)",147.982298512941
+"224",1988,"europe_to_asia",1269.92549214411,"liner freight rate (CPI adjusted to 1995)",140.938256616236
+"225",1989,"europe_to_asia",1208.20819040213,"liner freight rate (CPI adjusted to 1995)",135.570879927985
+"226",1990,"europe_to_asia",1150.49968700007,"liner freight rate (CPI adjusted to 1995)",124.045646193166
+"227",1991,"europe_to_asia",1021.42517687892,"liner freight rate (CPI adjusted to 1995)",127.079464880571
+"228",1992,"europe_to_asia",911.374975701419,"liner freight rate (CPI adjusted to 1995)",121.804217283509
+"229",1993,"europe_to_asia",1107.40484429066,"liner freight rate (CPI adjusted to 1995)",115.231479731222
+"230",1994,"europe_to_asia",1138.88663967611,"liner freight rate (CPI adjusted to 1995)",106.115944525799
+"231",1995,"europe_to_asia",1253.5,"liner freight rate (CPI adjusted to 1995)",100
+"232",1996,"europe_to_asia",1151.25621414914,"liner freight rate (CPI adjusted to 1995)",96.0986127496847
+"233",1997,"europe_to_asia",986.089719626168,"liner freight rate (CPI adjusted to 1995)",94.003738317757
+"234",1998,"europe_to_asia",838.901226993865,"liner freight rate (CPI adjusted to 1995)",83.2122699386503
+"235",1999,"europe_to_asia",673.039015606243,"liner freight rate (CPI adjusted to 1995)",78.6698679471789
+"236",2000,"europe_to_asia",655.797909407666,"liner freight rate (CPI adjusted to 1995)",97.3519163763066
+"237",2001,"europe_to_asia",631.199322416714,"liner freight rate (CPI adjusted to 1995)",98.1005081874647
+"238",2002,"europe_to_asia",561.863813229572,"liner freight rate (CPI adjusted to 1995)",80.4780433574208
+"239",2003,"europe_to_asia",620.574456521739,"liner freight rate (CPI adjusted to 1995)",83.654347826087
+"240",2004,"europe_to_asia",598.022763366861,"liner freight rate (CPI adjusted to 1995)",79.064055055585
+"241",2005,"europe_to_asia",636.365591397849,"liner freight rate (CPI adjusted to 1995)",81.1551459293395
+"242",2006,"europe_to_asia",603.816964285714,"liner freight rate (CPI adjusted to 1995)",75.5952380952381
+"243",2007,"europe_to_asia",584.522672685708,"liner freight rate (CPI adjusted to 1995)",68.3566281795295
+"244",2008,"europe_to_asia",757.211464772902,"liner freight rate (CPI adjusted to 1995)",63.7055684314664
+"245",2009,"europe_to_asia",586.407938956916,"liner freight rate (CPI adjusted to 1995)",45.4634864848488
+"246",2010,"europe_to_asia",NA,"liner freight rate (CPI adjusted to 1995)",78.2771398172946
+"247",2011,"europe_to_asia",NA,NA,NA
+"248",2012,"europe_to_asia",NA,NA,NA
+"249",2013,"europe_to_asia",NA,NA,NA
+"250",2014,"europe_to_asia",NA,NA,NA
+"251",2015,"europe_to_asia",NA,NA,NA
+"252",2016,"europe_to_asia",NA,NA,NA
+"253",2017,"europe_to_asia",NA,NA,NA
+"254",1971,"asia_to_europe",5521.13992284221,"liner freight rate (CPI adjusted to 1995)",149.891759687023
+"255",1972,"asia_to_europe",6056.35645396567,"liner freight rate (CPI adjusted to 1995)",152.145771110888
+"256",1973,"asia_to_europe",6257.18393144564,"liner freight rate (CPI adjusted to 1995)",151.917324007118
+"257",1974,"asia_to_europe",5907.90760743061,"liner freight rate (CPI adjusted to 1995)",182.749805529744
+"258",1975,"asia_to_europe",6654.79336963346,"liner freight rate (CPI adjusted to 1995)",182.68804486549
+"259",1976,"asia_to_europe",6501.23828671007,"liner freight rate (CPI adjusted to 1995)",182.049055356759
+"260",1977,"asia_to_europe",5131.315576453,"liner freight rate (CPI adjusted to 1995)",178.089219430126
+"261",1978,"asia_to_europe",3864.95382442179,"liner freight rate (CPI adjusted to 1995)",175.130983464296
+"262",1979,"asia_to_europe",4261.33901234664,"liner freight rate (CPI adjusted to 1995)",163.916460932827
+"263",1980,"asia_to_europe",4323.93655892059,"liner freight rate (CPI adjusted to 1995)",167.224943409499
+"264",1981,"asia_to_europe",4194.89465940255,"liner freight rate (CPI adjusted to 1995)",166.958643215743
+"265",1982,"asia_to_europe",3662.77381549709,"liner freight rate (CPI adjusted to 1995)",160.265467703852
+"266",1983,"asia_to_europe",2096.28777817443,"liner freight rate (CPI adjusted to 1995)",164.632620993593
+"267",1984,"asia_to_europe",2179.81420612139,"liner freight rate (CPI adjusted to 1995)",200.257905281843
+"268",1985,"asia_to_europe",1998.57017404584,"liner freight rate (CPI adjusted to 1995)",203.616572358169
+"269",1986,"asia_to_europe",2059.31304756723,"liner freight rate (CPI adjusted to 1995)",167.21273720925
+"270",1987,"asia_to_europe",2287.96300729824,"liner freight rate (CPI adjusted to 1995)",147.982298512941
+"271",1988,"asia_to_europe",2696.13305856945,"liner freight rate (CPI adjusted to 1995)",140.938256616236
+"272",1989,"asia_to_europe",2565.10327883702,"liner freight rate (CPI adjusted to 1995)",135.570879927985
+"273",1990,"asia_to_europe",1990.02295332823,"liner freight rate (CPI adjusted to 1995)",124.045646193166
+"274",1991,"asia_to_europe",2058.85462555066,"liner freight rate (CPI adjusted to 1995)",127.079464880571
+"275",1992,"asia_to_europe",1940.75552387741,"liner freight rate (CPI adjusted to 1995)",121.804217283509
+"276",1993,"asia_to_europe",1698.02076124567,"liner freight rate (CPI adjusted to 1995)",115.231479731222
+"277",1994,"asia_to_europe",1645.34412955466,"liner freight rate (CPI adjusted to 1995)",106.115944525799
+"278",1995,"asia_to_europe",1477.5,"liner freight rate (CPI adjusted to 1995)",100
+"279",1996,"asia_to_europe",1295.01147227533,"liner freight rate (CPI adjusted to 1995)",96.0986127496847
+"280",1997,"asia_to_europe",1094.81121495327,"liner freight rate (CPI adjusted to 1995)",94.003738317757
+"281",1998,"asia_to_europe",1222.00490797546,"liner freight rate (CPI adjusted to 1995)",83.2122699386503
+"282",1999,"asia_to_europe",1422.46098439376,"liner freight rate (CPI adjusted to 1995)",78.6698679471789
+"283",2000,"asia_to_europe",1434.17073170732,"liner freight rate (CPI adjusted to 1995)",97.3519163763066
+"284",2001,"asia_to_europe",1179.57255787691,"liner freight rate (CPI adjusted to 1995)",98.1005081874647
+"285",2002,"asia_to_europe",993.268482490272,"liner freight rate (CPI adjusted to 1995)",80.4780433574208
+"286",2003,"asia_to_europe",1303.06141304348,"liner freight rate (CPI adjusted to 1995)",83.654347826087
+"287",2004,"asia_to_europe",1429.80889359449,"liner freight rate (CPI adjusted to 1995)",79.064055055585
+"288",2005,"asia_to_europe",1380.4178187404,"liner freight rate (CPI adjusted to 1995)",81.1551459293395
+"289",2006,"asia_to_europe",1116.16369047619,"liner freight rate (CPI adjusted to 1995)",75.5952380952381
+"290",2007,"asia_to_europe",1325.42032005093,"liner freight rate (CPI adjusted to 1995)",68.3566281795295
+"291",2008,"asia_to_europe",1311.98078986359,"liner freight rate (CPI adjusted to 1995)",63.7055684314664
+"292",2009,"asia_to_europe",781.936449190582,"liner freight rate (CPI adjusted to 1995)",45.4634864848488
+"293",2010,"asia_to_europe",NA,"liner freight rate (CPI adjusted to 1995)",78.2771398172946
+"294",2011,"asia_to_europe",NA,NA,NA
+"295",2012,"asia_to_europe",NA,NA,NA
+"296",2013,"asia_to_europe",NA,NA,NA
+"297",2014,"asia_to_europe",NA,NA,NA
+"298",2015,"asia_to_europe",NA,NA,NA
+"299",2016,"asia_to_europe",NA,NA,NA
+"300",2017,"asia_to_europe",NA,NA,NA

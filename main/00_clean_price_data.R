@@ -1243,6 +1243,10 @@ saveRDS(
   file = 
     "cleaned/container_freight_rate_each_route.rds"
   )
+write.csv(
+  container_freight_rate_each_route, 
+  "cleaned/container_freight_rate_each_route.csv"
+)
 saveRDS(
   d_1965_1994_price_rawdata,
   file = 
